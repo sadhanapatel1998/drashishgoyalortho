@@ -1201,14 +1201,14 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                                 <span><i class="bi bi-clock" aria-hidden="true"></i> 4 min read</span>
                             </div>
                             <h3 class="blog-title">
-                                <a href="blogs.html#robotic-knee-guide">Robotic vs Traditional Knee Replacement: What
+                                <a href="blogs.php">Robotic vs Traditional Knee Replacement: What
                                     Every Patient Should Know</a>
                             </h3>
                             <p class="blog-excerpt d-none">
                                 Understand how sub-millimeter robotic precision minimizes muscle damage, protects
                                 ligaments, and enables rapid return to active mobility.
                             </p>
-                            <a href="blogs.html#robotic-knee-guide" class="blog-readmore">
+                            <a href="blogs.php" class="blog-readmore">
                                 Read Full Article <i class="bi bi-arrow-right" aria-hidden="true"></i>
                             </a>
                         </div>
@@ -1230,14 +1230,14 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                                 <span><i class="bi bi-clock" aria-hidden="true"></i> 5 min read</span>
                             </div>
                             <h3 class="blog-title">
-                                <a href="blogs.html#acl-recovery-guide">ACL Tear: Warning Signs, Keyhole Arthroscopy
+                                <a href="blogs.php">ACL Tear: Warning Signs, Keyhole Arthroscopy
                                     &amp; Recovery Timeline</a>
                             </h3>
                             <p class="blog-excerpt d-none">
                                 A step-by-step roadmap for active individuals dealing with ligament tears, from initial
                                 MRI diagnosis to full sports return.
                             </p>
-                            <a href="blogs.html#acl-recovery-guide" class="blog-readmore">
+                            <a href="blogs.php" class="blog-readmore">
                                 Read Full Article <i class="bi bi-arrow-right" aria-hidden="true"></i>
                             </a>
                         </div>
@@ -1259,14 +1259,14 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                                 <span><i class="bi bi-clock" aria-hidden="true"></i> 3 min read</span>
                             </div>
                             <h3 class="blog-title">
-                                <a href="blogs.html#knee-stiffness-exercises">5 Daily Exercises to Relieve Knee
+                                <a href="blogs.php">5 Daily Exercises to Relieve Knee
                                     Stiffness and Strengthen Cartilage</a>
                             </h3>
                             <p class="blog-excerpt d-none">
                                 Simple, low-impact physiotherapy movements recommended by orthopaedic specialists to
                                 maintain joint flexibility and reduce pain.
                             </p>
-                            <a href="blogs.html#knee-stiffness-exercises" class="blog-readmore">
+                            <a href="blogs.php" class="blog-readmore">
                                 Read Full Article <i class="bi bi-arrow-right" aria-hidden="true"></i>
                             </a>
                         </div>

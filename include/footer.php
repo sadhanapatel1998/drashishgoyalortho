@@ -50,13 +50,14 @@
                     <div class="footer-widget">
                         <h4>Quick Links</h4>
                         <ul class="footer-links">
-                            <li><a href="/"><i class="bi bi-chevron-right"></i> Home</a></li>
-                            <li><a href="about.html"><i class="bi bi-chevron-right"></i> About Doctor</a></li>
-                            <li><a href="treatments-services.html"><i class="bi bi-chevron-right"></i> Treatments</a></li>
-                            <li><a href="international-patients.html"><i class="bi bi-chevron-right"></i> Global Patients</a></li>
-                            <li><a href="research-publications.html"><i class="bi bi-chevron-right"></i> Research</a></li>
-                            <li><a href="blogs.html"><i class="bi bi-chevron-right"></i> Health Blogs</a></li>
-                            <li><a href="contact.html"><i class="bi bi-chevron-right"></i> Contact Us</a></li>
+                            <li><a href="index.php"><i class="bi bi-chevron-right"></i> Home</a></li>
+                            <li><a href="about.php"><i class="bi bi-chevron-right"></i> About Doctor</a></li>
+                            <li><a href="specialities.php"><i class="bi bi-chevron-right"></i> Specialities</a></li>
+                            <li><a href="treatments-services.php"><i class="bi bi-chevron-right"></i> Treatments &amp; Services</a></li>
+                            <li><a href="international-patients.php"><i class="bi bi-chevron-right"></i> Global Patients</a></li>
+                            <li><a href="research-publications.php"><i class="bi bi-chevron-right"></i> Research &amp; Publications</a></li>
+                            <li><a href="blogs.php"><i class="bi bi-chevron-right"></i> Health Blogs</a></li>
+                            <li><a href="contact.php"><i class="bi bi-chevron-right"></i> Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -66,13 +67,11 @@
                     <div class="footer-widget">
                         <h4>Specialities</h4>
                         <ul class="footer-links">
-                            <li><a href="robotic-knee-replacement-surgeon-vadodara.html"><i class="bi bi-chevron-right"></i> Robotic Knee Surgery</a></li>
-                            <li><a href="acl-specialist-vadodara.html"><i class="bi bi-chevron-right"></i> ACL Specialist</a></li>
-                            <li><a href="meniscus-repair-vadodara.html"><i class="bi bi-chevron-right"></i> Meniscus Repair</a></li>
-                            <li><a href="treatments-services.html#joint-replacement"><i class="bi bi-chevron-right"></i> Hip Replacement</a></li>
-                            <li><a href="treatments-services.html#arthroscopy-sports"><i class="bi bi-chevron-right"></i> Knee Arthroscopy</a></li>
-                            <li><a href="treatments-services.html#trauma-revision"><i class="bi bi-chevron-right"></i> Complex Trauma Care</a></li>
-                            <li><a href="treatments-services.html#regenerative-medicine"><i class="bi bi-chevron-right"></i> PRP &amp; Stem Cell</a></li>
+                            <li><a href="robotic-joint-replacement.php"><i class="bi bi-chevron-right"></i> Robotic Joint Replacement</a></li>
+                            <li><a href="total-knee-hip-replacement.php"><i class="bi bi-chevron-right"></i> Total Knee &amp; Hip (TKR &amp; THR)</a></li>
+                            <li><a href="revision-daa-hip-replacement.php"><i class="bi bi-chevron-right"></i> Revision &amp; DAA Hip Replacement</a></li>
+                            <li><a href="complex-trauma-revision.php"><i class="bi bi-chevron-right"></i> Complex Trauma &amp; Revision</a></li>
+                            <li><a href="arthroscopy-sports-injuries.php"><i class="bi bi-chevron-right"></i> Arthroscopy &amp; Sports Injuries</a></li>
                         </ul>
                     </div>
                 </div>

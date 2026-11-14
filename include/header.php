@@ -92,35 +92,34 @@
                 <li class="nav-item"><a class="nav-link <?= (in_array($activePage, ['', 'index.php'])) ? 'active' : '' ?>" href="/" aria-current="page">Home</a></li>
                 <li class="nav-item"><a class="nav-link <?= ($activePage === 'about.php') ? 'active' : '' ?>" href="about.php" title="About Dr. Ashish Kumar Goyal">About
                         Dr. Goyal</a></li>
-
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="specialities.php" aria-haspopup="true">
+                    <a class="nav-link dropdown-toggle <?= (in_array($activePage, ['specialities.php', 'robotic-joint-replacement.php', 'total-knee-hip-replacement.php', 'revision-daa-hip-replacement.php', 'complex-trauma-revision.php', 'arthroscopy-sports-injuries.php'])) ? 'active' : '' ?>" href="specialities.php" aria-haspopup="true">
                         Specialities <i class="bi bi-chevron-down" aria-hidden="true"></i>
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item" href="robotic-joint-replacement.php">
+                            <a class="dropdown-item <?= ($activePage === 'robotic-joint-replacement.php') ? 'active' : '' ?>" href="robotic-joint-replacement.php">
                                 Robotic Joint Replacement
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="total-knee-hip-replacement.php">
-                                Total Knee & Hip Replacement (TKR & THR)
+                            <a class="dropdown-item <?= ($activePage === 'total-knee-hip-replacement.php') ? 'active' : '' ?>" href="total-knee-hip-replacement.php">
+                                Total Knee &amp; Hip Replacement (TKR &amp; THR)
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="revision-daa-hip-replacement.php">
-                                Revision & DAA Hip Replacement
+                            <a class="dropdown-item <?= ($activePage === 'revision-daa-hip-replacement.php') ? 'active' : '' ?>" href="revision-daa-hip-replacement.php">
+                                Revision &amp; DAA Hip Replacement
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="complex-trauma-revision-surgeries.php">
-                                Complex Trauma & Revision Surgeries
+                            <a class="dropdown-item <?= ($activePage === 'complex-trauma-revision.php') ? 'active' : '' ?>" href="complex-trauma-revision.php">
+                                Complex Trauma &amp; Revision Surgeries
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="arthroscopy-sports-injuries.php">
-                                Arthroscopy & Sports Injuries
+                            <a class="dropdown-item <?= ($activePage === 'arthroscopy-sports-injuries.php') ? 'active' : '' ?>" href="arthroscopy-sports-injuries.php">
+                                Arthroscopy &amp; Sports Injuries
                             </a>
                         </li>
                     </ul>
@@ -167,8 +166,8 @@
                         Patients</a></li>
                 <li class="nav-item"><a class="nav-link" href="research-publications.php">Research &amp;
                         Publications</a></li>
-                <li class="nav-item"><a class="nav-link" href="blogs.php">Blogs</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link <?= ($activePage === 'blogs.php') ? 'active' : '' ?>" href="blogs.php">Blogs</a></li>
+                <li class="nav-item"><a class="nav-link <?= ($activePage === 'contact.php') ? 'active' : '' ?>" href="contact.php">Contact Us</a></li>
             </ul>
         </nav>
     </div>
@@ -205,8 +204,8 @@
                         Patients</a></li>
                 <li class="nav-item"><a class="nav-link" href="research-publications.php">Research &amp;
                         Publications</a></li>
-                <li class="nav-item"><a class="nav-link" href="blogs.php">Blogs</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link <?= ($activePage === 'blogs.php') ? 'active' : '' ?>" href="blogs.php">Blogs</a></li>
+                <li class="nav-item"><a class="nav-link <?= ($activePage === 'contact.php') ? 'active' : '' ?>" href="contact.php">Contact Us</a></li>
             </ul>
         </nav>
         <a href="contact.php" class="btn btn-cta w-100 mt-4"><i class="bi bi-calendar2-check me-2"
