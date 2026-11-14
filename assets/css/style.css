@@ -2223,7 +2223,7 @@ img {
 .doctor-about-cards {
   position: relative;
   padding: 85px 0 80px;
-  background: linear-gradient(180deg, #fff8f2 0%, #ffffff 50%, #fffbf8 100%);
+    background: linear-gradient(180deg, #fff8f200 0%, #ffffff00 50%, #fff8f3 100%);
   font-family: "Poppins", sans-serif;
   overflow: hidden;
 }
@@ -2396,7 +2396,7 @@ img {
   left: 0;
   right: 0;
   height: 3.5px;
-  background: linear-gradient(90deg, #f58220 0%, #c85f00 100%);
+  /* background: linear-gradient(90deg, #f58220 0%, #c85f00 100%); */
   transform: scaleX(0);
   transform-origin: left center;
   transition: transform 0.35s ease;
@@ -2441,20 +2441,19 @@ img {
 
 /* Hero Focused Icon */
 .doctor-card-icon {
-  width: 68px;
-  height: 68px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-    background: linear-gradient(135deg, #e7e6e6 0%, #ecebea 100%);
-    border: 1.5px solid rgb(28 28 28);
-    color: #0e0e0e;
-  font-size: 30px;
-  border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(245, 130, 32, 0.12);
-  transition: all 0.35s ease;
+    width: 68px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f1dbc7 0%, #f5810d1c 100%);
+    border: 1.5px solid rgb(255 192 138);
+    color: #de6c0a;
+    font-size: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(245, 130, 32, 0.12);
+    transition: all 0.35s ease;
 }
-
 .doctor-info-card:hover .doctor-card-icon {
   background: linear-gradient(135deg, #f58220 0%, #c85f00 100%);
   color: #ffffff;
@@ -3135,8 +3134,9 @@ font-size: 13px;
 .btn-spotlight-consult:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 28px rgba(245, 130, 32, 0.45);
-  color: #ffffff !important;
+    color: #f58220 !important;
 }
+
 
 .btn-spotlight-consult i {
   font-size: 15px;
@@ -4246,14 +4246,170 @@ font-size: 13px;
   pointer-events: none;
 }
 
+/* 3. Elevated Credential Section (Exact match to executive clinical layout) */
+.about-creds-section {
+  padding: 85px 0 95px;
+  background: linear-gradient(180deg, #fbf7f3 0%, #ffffff 40%, #fdfaf7 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.creds-banner-content {
+  max-width: 620px;
+}
+
+.creds-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #78716c;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.creds-eyebrow-bar {
+  width: 28px;
+  height: 3.5px;
+  background: #f58220;
+  border-radius: 2px;
+}
+
+.creds-banner-title {
+  /* font-family: "Montserrat", sans-serif; */
+  font-size: clamp(28px, 3.2vw, 42px);
+  font-weight: 800;
+  color: #171717;
+  line-height: 1.25;
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+}
+
+.creds-banner-title span {
+  color: #f58220;
+}
+
+.creds-banner-desc {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* Desk Visual on the Right */
+/* .creds-desk-visual {
+  position: relative;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+} */
+
+.creds-desk-visual .creds-img-wrap img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+    border: 3px solid #ffefe2;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+.creds-desk-glow {
+  position: absolute;
+  top: -20%;
+  right: 5%;
+  width: 280px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(245, 130, 32, 0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* .creds-stethoscope-wrap {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  width: 140px;
+  z-index: 1;
+  opacity: 0.85;
+} */
+
+/* .creds-stethoscope-svg {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.08));
+}
+
+.creds-books-stack {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.creds-book {
+  position: relative;
+  border-radius: 4px 10px 10px 4px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+  height: 42px;
+  transition: transform 0.3s ease;
+}
+
+.creds-book:hover {
+  transform: translateX(-6px);
+}
+
+.creds-book-top {
+  width: 250px;
+  background: linear-gradient(90deg, #13243a 0%, #1e3a5f 100%);
+  color: #ffffff;
+  margin-bottom: 5px;
+  transform: rotate(-1deg);
+  border-left: 5px solid #0f1c2e;
+}
+
+.creds-book-mid {
+  width: 275px;
+  background: linear-gradient(90deg, #c0cad5 0%, #dbe2e8 100%);
+  color: #1e293b;
+  margin-bottom: 5px;
+  transform: rotate(0.8deg);
+  border-left: 5px solid #94a3b8;
+}
+
+.creds-book-bot {
+  width: 295px;
+  background: linear-gradient(90deg, #f1f5f9 0%, #ffffff 100%);
+  color: #1e293b;
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid #cbd5e1;
+}
+
+.creds-book-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
+} */
+
 /* 3 Elevated Credential Cards */
 .cred-card {
   background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.07);
-  border-radius: 22px;
-  padding: 32px 26px;
+  border: 1px solid #f0e4d7;
+  border-radius: 20px;
+  padding: 30px 24px;
   height: 100%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.035);
   transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
   position: relative;
   overflow: hidden;
@@ -4261,27 +4417,10 @@ font-size: 13px;
   flex-direction: column;
 }
 
-.cred-card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(90deg, #f58220 0%, #c85f00 100%);
-  transform: scaleX(0);
-  transform-origin: left center;
-  transition: transform 0.35s ease;
-}
-
 .cred-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(245, 130, 32, 0.35);
-  box-shadow: 0 18px 45px rgba(245, 130, 32, 0.12);
-}
-
-.cred-card:hover::before {
-  transform: scaleX(1);
+  border-color: rgba(245, 130, 32, 0.4);
+  box-shadow: 0 16px 36px rgba(245, 130, 32, 0.12);
 }
 
 /* Card Header */
@@ -4289,137 +4428,155 @@ font-size: 13px;
   display: flex;
   align-items: center;
   gap: 14px;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   padding-bottom: 16px;
-  border-bottom: 1px solid #f3f4f6;
+  border-bottom: 1px solid #f4eae0;
 }
 
 .cred-card-icon {
-  width: 52px;
-  height: 52px;
-  border-radius: 14px;
-  background: #fff5ec;
-  border: 1px solid rgba(245, 130, 32, 0.22);
-  color: var(--brand-orange);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff1e5;
+  color: #f58220;
+  border: 1px solid #fedbc0;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 22px;
   flex-shrink: 0;
   transition: transform 0.3s ease;
 }
 
 .cred-card:hover .cred-card-icon {
-  transform: scale(1.08) rotate(3deg);
-  background: linear-gradient(135deg, #f58220 0%, #c85f00 100%);
+  transform: scale(1.08);
+  background: #f58220;
   color: #ffffff;
 }
 
 .cred-card-header h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 700;
   color: #171717;
-  margin: 0 0 2px;
-  line-height: 1.3;
+  margin: 0;
+  line-height: 1.25;
 }
 
 .cred-card-header span {
   font-family: "Poppins", sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
-  color: #f58220;
+  color: #78716c;
+  letter-spacing: 1.4px;
   text-transform: uppercase;
-  letter-spacing: 0.8px;
+  margin-top: 3px;
+  display: block;
 }
 
-/* Items List */
-.cred-items-list {
+.cred-card-body {
   display: flex;
   flex-direction: column;
-  gap: 14px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
   flex: 1;
 }
 
-.cred-tile {
-  background: #fbfbfb;
-  border: 1px solid #f0f0f0;
-  border-radius: 14px;
-  padding: 13px 15px;
-  transition: all 0.25s ease;
-  position: relative;
+/* Line Items */
+.cred-line-item {
+  padding: 12px 0;
+  border-bottom: 1px solid #f5ede4;
 }
 
-.cred-tile:hover {
-  background: #fff8f2;
-  border-color: rgba(245, 130, 32, 0.25);
-  transform: translateX(4px);
+.cred-line-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
-.cred-tile-top {
+.cred-line-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
-  margin-bottom: 3px;
+  gap: 10px;
 }
 
-.cred-tile-title {
+.cred-line-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-family: "Montserrat", sans-serif;
   font-size: 14.5px;
   font-weight: 700;
   color: #171717;
-  margin: 0;
+}
+
+.cred-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid #f58220;
+  background: #ffffff;
+  flex-shrink: 0;
+}
+
+.cred-badge {
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #b45309;
+  background: #fef3e9;
+  border: 1px solid rgba(245, 130, 32, 0.22);
+  border-radius: 50px;
+  padding: 2.5px 10px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.cred-line-sub {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  color: #64748b;
+  margin: 4px 0 0;
+  padding-left: 18px;
+  line-height: 1.5;
+}
+
+/* Sub-Group Section Label (for Experience) */
+.cred-section-label {
   display: flex;
   align-items: center;
   gap: 8px;
-}
-
-.cred-tile-title i {
-  color: #f58220;
-  font-size: 14px;
-}
-
-.cred-tile-badge {
   font-family: "Montserrat", sans-serif;
-  font-size: 10.5px;
-  font-weight: 700;
-  color: #c85f00;
-  background: #fff3e8;
-  border: 1px solid rgba(245, 130, 32, 0.2);
-  border-radius: 50px;
-  padding: 2px 8px;
-  white-space: nowrap;
-}
-
-.cred-tile-desc {
-  font-family: "Poppins", sans-serif;
-  font-size: 12.5px;
-  color: #64748b;
-  line-height: 1.5;
-  margin: 0;
-  padding-left: 22px;
-}
-
-/* Group Subheaders inside Experience Card */
-.cred-group-label {
-  font-family: "Montserrat", sans-serif;
-  font-size: 11.5px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.8px;
   text-transform: uppercase;
-  color: #9ca3af;
-  margin: 6px 0 4px;
-  display: flex;
-  align-items: center;
-  gap: 6px;
+  color: #171717;
+  margin: 12px 0 8px;
 }
 
-.cred-group-label i {
-  color: #f58220;
+.cred-label-bar {
+  width: 3px;
+  height: 13px;
+  background: #f58220;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.cred-compact {
+  padding: 8px 0;
+}
+
+.cred-compact .cred-line-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.cred-compact .cred-line-title span {
+  font-family: "Poppins", sans-serif;
+  font-size: 13.5px;
+  font-weight: 500;
+  color: #1f2937;
 }
 
 /* Trust Verification Bar at bottom of credentials section */
@@ -4480,10 +4637,13 @@ font-size: 13px;
 }
 
 .about-stat-item {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 12px 16px;
+    border: 1px solid #ffffff70;
+    border-radius: 12px;
+        min-height: 120px;
 }
 
 .about-stat-icon {
@@ -4503,7 +4663,7 @@ font-size: 13px;
 
 .about-stat-number {
   font-family: "Montserrat", sans-serif;
-     font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     color: #ffffff;
   line-height: 1.1;
@@ -4511,11 +4671,11 @@ font-size: 13px;
 }
 
 .about-stat-label {
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
     color: #f3f3f3;
-  margin: 0;
+    margin: 0;
 }
 
 /* 5. Mission & Vision Section */
@@ -4674,7 +4834,7 @@ font-size: 13px;
     padding: 34px 26px;
   }
   .about-stat-item {
-    padding: 8px 0;
+    padding: 15px;
   }
   .core-values-strip {
     justify-content: flex-start;

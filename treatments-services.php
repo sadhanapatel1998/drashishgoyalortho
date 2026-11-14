@@ -186,7 +186,7 @@ ob_start();
                     <p>Schedule a personal clinical evaluation with Dr. Ashish Kumar Goyal at his Vadodara clinic.</p>
                 </div>
                 <div class="d-flex flex-wrap gap-3">
-                    <a href="index.php#appointment" class="btn btn-cta d-inline-flex align-items-center gap-2">
+                    <a href="contact.php" class="btn btn-cta d-inline-flex align-items-center gap-2">
                         <i class="bi bi-calendar2-check" aria-hidden="true"></i> Book Appointment
                     </a>
                     <a href="tel:+917805965989" class="btn btn-outline-light d-inline-flex align-items-center gap-2"

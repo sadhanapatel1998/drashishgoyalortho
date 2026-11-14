@@ -114,22 +114,39 @@ ob_start();
         </div>
     </section>
 
-    <!-- ================= 3. SHARED CREDENTIALS SECTION ("Healers, Innovators, Life Changers.") ================= -->
+    <!-- ================= 3. SHARED CREDENTIALS SECTION ================= -->
     <section class="about-creds-section" aria-labelledby="credsHeading">
         <div class="container">
 
-            <!-- Section Heading (Unified style like index.php) -->
-            <div class="section-heading text-center mb-5" style="max-width: 1000px;">
-                <span class="section-tag">
-                    <i class="bi bi-award-fill" aria-hidden="true"></i> LEADERSHIP &amp; CREDENTIALS
-                </span>
-                <h2 id="credsHeading">Expertise, <span>Innovation,</span> Compassionate Care.</h2>
-                <p>
-                    Dr. Ashish Kumar Goyal is an internationally trained orthopedic surgeon specializing in Robotic
-                    Joint Replacement, Arthroscopy, and Trauma Surgery. With over a decade of experience in India and
-                    the UK, he combines advanced surgical techniques with compassionate care to help patients overcome
-                    pain, restore mobility, and lead healthier, more active lives.
-                </p>
+            <!-- Split Top Row: Headline + Book Stack Desk Visual -->
+            <div class="row align-items-center creds-top-row mb-5">
+                <div class="col-lg-7">
+                    <div class="creds-banner-content">
+                        <div class="creds-eyebrow">
+                            <span class="creds-eyebrow-bar" aria-hidden="true"></span>
+                            <span>LEADERSHIP &amp; CREDENTIALS</span>
+                        </div>
+                        <h2 id="credsHeading" class="creds-banner-title">
+                            Expertise, Innovation,<br>
+                            <span>Compassionate Care.</span>
+                        </h2>
+                        <p class="creds-banner-desc">
+                            Dr. Ashish Kumar Goyal is an orthopaedic surgeon specialising in Robotic Joint Replacement,
+                            Arthroscopy, and Trauma Surgery.
+                            With 10+ years' experience, he combines expertise with care to restore mobility and improve
+                            lives.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Visual: Stack of 3 Orthopaedic Books & Stethoscope on Desk -->
+                <div class="col-lg-5">
+                    <div class="creds-desk-visual" aria-hidden="true">
+                        <div class="creds-img-wrap">
+                            <img src="assets/images/about-us/expertise.jpg" alt="Expertise Image">
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- 3 Elevated Interactive Credential Cards -->
@@ -148,46 +165,43 @@ ob_start();
                             </div>
                         </div>
 
-                        <ul class="cred-items-list">
-                            <li class="cred-tile">
-                                <div class="cred-tile-top">
-                                    <h4 class="cred-tile-title">
-                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
-                                        <span>MCh (Trauma &amp; Ortho)</span>
-                                    </h4>
-                                    <span class="cred-tile-badge">UK Super-Specialty</span>
+                        <div class="cred-card-body">
+                            <!-- Item 1 -->
+                            <div class="cred-line-item">
+                                <div class="cred-line-top">
+                                    <div class="cred-line-title">
+                                        <span class="cred-dot" aria-hidden="true"></span>
+                                        <strong>MCh (Trauma &amp; Ortho)</strong>
+                                    </div>
+                                    <span class="cred-badge">UK Super-Specialty</span>
                                 </div>
-                                <p class="cred-tile-desc">
-                                    NHS - Tayside, Royal College of Surgeons, UK
-                                </p>
-                            </li>
+                                <p class="cred-line-sub">NHS – Tayside, Royal College of Surgeons, UK</p>
+                            </div>
 
-                            <li class="cred-tile">
-                                <div class="cred-tile-top">
-                                    <h4 class="cred-tile-title">
-                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
-                                        <span>MS (Orthopaedics)</span>
-                                    </h4>
-                                    <span class="cred-tile-badge">Post-Graduate</span>
+                            <!-- Item 2 -->
+                            <div class="cred-line-item">
+                                <div class="cred-line-top">
+                                    <div class="cred-line-title">
+                                        <span class="cred-dot" aria-hidden="true"></span>
+                                        <strong>MS (Orthopaedics)</strong>
+                                    </div>
+                                    <span class="cred-badge">Post-Graduate</span>
                                 </div>
-                                <p class="cred-tile-desc">
-                                    B. P. Koirala Institute of Health Sciences, Dharan
-                                </p>
-                            </li>
+                                <p class="cred-line-sub">B. P. Koirala Institute of Health Sciences, Dharan</p>
+                            </div>
 
-                            <li class="cred-tile">
-                                <div class="cred-tile-top">
-                                    <h4 class="cred-tile-title">
-                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
-                                        <span>MBBS</span>
-                                    </h4>
-                                    <span class="cred-tile-badge">Undergraduate</span>
+                            <!-- Item 3 -->
+                            <div class="cred-line-item">
+                                <div class="cred-line-top">
+                                    <div class="cred-line-title">
+                                        <span class="cred-dot" aria-hidden="true"></span>
+                                        <strong>MBBS</strong>
+                                    </div>
+                                    <span class="cred-badge">Undergraduate</span>
                                 </div>
-                                <p class="cred-tile-desc">
-                                    K. S. Hegde Medical College, Mangalore
-                                </p>
-                            </li>
-                        </ul>
+                                <p class="cred-line-sub">K. S. Hegde Medical College, Mangalore</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -204,78 +218,79 @@ ob_start();
                             </div>
                         </div>
 
-                        <ul class="cred-items-list">
-                            <!-- UK Group -->
-                            <div class="cred-group-label">
-                                <i class="bi bi-globe-europe-africa" aria-hidden="true"></i> United Kingdom (NHS &amp;
-                                Private)
+                        <div class="cred-card-body">
+                            <!-- Group 1: UK -->
+                            <div class="cred-section-label">
+                                <span class="cred-label-bar" aria-hidden="true"></span>
+                                <span>United Kingdom (NHS &amp; Private)</span>
                             </div>
 
-                            <li class="cred-tile">
-                                <div class="cred-tile-top">
-                                    <h4 class="cred-tile-title">
-                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
+                            <div class="cred-line-item cred-compact">
+                                <div class="cred-line-top">
+                                    <div class="cred-line-title">
+                                        <span class="cred-dot" aria-hidden="true"></span>
                                         <span>Perth Royal Infirmary</span>
-                                    </h4>
-                                    <span class="cred-tile-badge">UK</span>
+                                    </div>
+                                    <span class="cred-badge">UK</span>
                                 </div>
-                            </li>
-
-                            <li class="cred-tile">
-                                <div class="cred-tile-top">
-                                    <h4 class="cred-tile-title">
-                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
-                                        <span>Stracathro Hospital</span>
-                                    </h4>
-                                    <span class="cred-tile-badge">UK</span>
-                                </div>
-                            </li>
-
-                            <li class="cred-tile">
-                                <div class="cred-tile-top">
-                                    <h4 class="cred-tile-title">
-                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
-                                        <span>Kings Park Hospital</span>
-                                    </h4>
-                                    <span class="cred-tile-badge">UK</span>
-                                </div>
-                            </li>
-
-                            <!-- India Group -->
-                            <div class="cred-group-label mt-2">
-                                <i class="bi bi-geo-alt-fill" aria-hidden="true"></i> India (Centres of Excellence)
                             </div>
 
-                            <li class="cred-tile">
-                                <div class="cred-tile-top">
-                                    <h4 class="cred-tile-title">
-                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
+                            <div class="cred-line-item cred-compact">
+                                <div class="cred-line-top">
+                                    <div class="cred-line-title">
+                                        <span class="cred-dot" aria-hidden="true"></span>
+                                        <span>Stracathro Hospital</span>
+                                    </div>
+                                    <span class="cred-badge">UK</span>
+                                </div>
+                            </div>
+
+                            <div class="cred-line-item cred-compact">
+                                <div class="cred-line-top">
+                                    <div class="cred-line-title">
+                                        <span class="cred-dot" aria-hidden="true"></span>
+                                        <span>Kings Park Hospital</span>
+                                    </div>
+                                    <span class="cred-badge">UK</span>
+                                </div>
+                            </div>
+
+                            <!-- Group 2: India -->
+                            <div class="cred-section-label mt-3">
+                                <span class="cred-label-bar" aria-hidden="true"></span>
+                                <span>India (Centres of Excellence)</span>
+                            </div>
+
+                            <div class="cred-line-item cred-compact">
+                                <div class="cred-line-top">
+                                    <div class="cred-line-title">
+                                        <span class="cred-dot" aria-hidden="true"></span>
                                         <span>Apollo Hospital</span>
-                                    </h4>
-                                    <span class="cred-tile-badge">New Delhi</span>
+                                    </div>
+                                    <span class="cred-badge">New Delhi</span>
                                 </div>
-                            </li>
+                            </div>
 
-                            <li class="cred-tile">
-                                <div class="cred-tile-top">
-                                    <h4 class="cred-tile-title">
-                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
+                            <div class="cred-line-item cred-compact">
+                                <div class="cred-line-top">
+                                    <div class="cred-line-title">
+                                        <span class="cred-dot" aria-hidden="true"></span>
                                         <span>Medanta (The Medicity)</span>
-                                    </h4>
-                                    <span class="cred-tile-badge">Gurugram</span>
+                                    </div>
+                                    <span class="cred-badge">Gurugram</span>
                                 </div>
-                            </li>
+                            </div>
 
-                            <li class="cred-tile">
-                                <div class="cred-tile-top">
-                                    <h4 class="cred-tile-title">
-                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
+                            <div class="cred-line-item cred-compact">
+                                <div class="cred-line-top">
+                                    <div class="cred-line-title">
+                                        <span class="cred-dot" aria-hidden="true"></span>
                                         <span>Artemis Hospital</span>
-                                    </h4>
-                                    <span class="cred-tile-badge">Gurugram</span>
+                                    </div>
+                                    <span class="cred-badge">Gurugram</span>
                                 </div>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -292,46 +307,45 @@ ob_start();
                             </div>
                         </div>
 
-                        <ul class="cred-items-list">
-                            <li class="cred-tile">
-                                <div class="cred-tile-top">
-                                    <h4 class="cred-tile-title">
-                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
-                                        <span>Top 50 Reviewer</span>
-                                    </h4>
-                                    <span class="cred-tile-badge">JCOT 2020</span>
+                        <div class="cred-card-body">
+                            <!-- Item 1 -->
+                            <div class="cred-line-item">
+                                <div class="cred-line-top">
+                                    <div class="cred-line-title">
+                                        <span class="cred-dot" aria-hidden="true"></span>
+                                        <strong>Top 50 Reviewer</strong>
+                                    </div>
+                                    <span class="cred-badge">JCOT 2020</span>
                                 </div>
-                                <p class="cred-tile-desc">
-                                    Journal of Clinical Orthopaedics &amp; Trauma (JCOT), New Delhi (2020)
-                                </p>
-                            </li>
+                                <p class="cred-line-sub">Journal of Clinical Orthopaedics &amp; Trauma (JCOT), New Delhi
+                                    (2020)</p>
+                            </div>
 
-                            <li class="cred-tile">
-                                <div class="cred-tile-top">
-                                    <h4 class="cred-tile-title">
-                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
-                                        <span>COVID Warrior 2020</span>
-                                    </h4>
-                                    <span class="cred-tile-badge">National Honor</span>
+                            <!-- Item 2 -->
+                            <div class="cred-line-item">
+                                <div class="cred-line-top">
+                                    <div class="cred-line-title">
+                                        <span class="cred-dot" aria-hidden="true"></span>
+                                        <strong>COVID Warrior 2020</strong>
+                                    </div>
+                                    <span class="cred-badge">National Honor</span>
                                 </div>
-                                <p class="cred-tile-desc">
-                                    Indian Medical Association &amp; Indraprastha Apollo Hospital, New Delhi
-                                </p>
-                            </li>
+                                <p class="cred-line-sub">Indian Medical Association &amp; Indraprastha Apollo Hospital,
+                                    New Delhi</p>
+                            </div>
 
-                            <li class="cred-tile">
-                                <div class="cred-tile-top">
-                                    <h4 class="cred-tile-title">
-                                        <i class="bi bi-check2-circle" aria-hidden="true"></i>
-                                        <span>Global Citizen Scholarship</span>
-                                    </h4>
-                                    <span class="cred-tile-badge">UK Fellowship</span>
+                            <!-- Item 3 -->
+                            <div class="cred-line-item">
+                                <div class="cred-line-top">
+                                    <div class="cred-line-title">
+                                        <span class="cred-dot" aria-hidden="true"></span>
+                                        <strong>Global Citizen Scholarship</strong>
+                                    </div>
+                                    <span class="cred-badge">UK Fellowship</span>
                                 </div>
-                                <p class="cred-tile-desc">
-                                    Awarded in the UK for MCh Orthopaedic Post-Graduate Program
-                                </p>
-                            </li>
-                        </ul>
+                                <p class="cred-line-sub">Awarded in the UK for MCh Orthopaedic Post-Graduate Program</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -437,7 +451,6 @@ ob_start();
     <!-- ================= 5. MISSION & VISION SECTION ================= -->
     <section class="about-mv-section" aria-labelledby="mvHeading">
         <div class="container">
-
             <div class="section-heading text-center">
                 <span class="section-tag">
                     <i class="bi bi-compass-fill" aria-hidden="true"></i> PURPOSE &amp; COMMITMENT

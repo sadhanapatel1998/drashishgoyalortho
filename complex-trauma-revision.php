@@ -66,7 +66,7 @@ ob_start();
 
                         <!-- CTA Row -->
                         <div class="d-flex flex-wrap gap-3 align-items-center">
-                            <a href="index.php#appointment" class="btn btn-cta d-inline-flex align-items-center gap-2">
+                            <a href="contact.php" class="btn btn-cta d-inline-flex align-items-center gap-2">
                                 <i class="bi bi-calendar2-check" aria-hidden="true"></i> Book Trauma Evaluation
                             </a>
                             <a href="tel:+917805965989" class="btn btn-outline-dark d-inline-flex align-items-center gap-2"
@@ -302,7 +302,7 @@ ob_start();
                     <p>Consult Dr. Ashish Kumar Goyal in Vadodara for advanced trauma evaluation and revision surgery planning.</p>
                 </div>
                 <div class="d-flex flex-wrap gap-3">
-                    <a href="index.php#appointment" class="btn btn-cta d-inline-flex align-items-center gap-2">
+                    <a href="contact.php" class="btn btn-cta d-inline-flex align-items-center gap-2">
                         <i class="bi bi-calendar2-check" aria-hidden="true"></i> Book Appointment
                     </a>
                     <a href="tel:+917805965989" class="btn btn-outline-light d-inline-flex align-items-center gap-2"
