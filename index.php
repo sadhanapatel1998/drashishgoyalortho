@@ -661,7 +661,7 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                                 <path d="M0 40 C 90 20, 170 50, 260 34 C 310 24, 360 36, 400 30 L 400 58 L 0 58 Z"
                                     fill="#e2e8f0" opacity="0.65" />
                                 <path d="M0 58 C 110 54, 180 50, 240 42 C 300 34, 345 14, 400 8 L 400 58 L 0 58 Z"
-                                    fill="#f58220" />
+                                    fill="#ff9940" />
                             </svg>
                         </div>
 

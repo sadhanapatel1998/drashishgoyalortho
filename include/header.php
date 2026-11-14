@@ -70,7 +70,7 @@
                         </div> -->
                 </div>
 
-                <a href="#appointment" class="btn btn-cta d-none d-lg-inline-flex align-items-center gap-2"
+                <a href="index.php#appointment" class="btn btn-cta d-none d-lg-inline-flex align-items-center gap-2"
                     title="Book Appointment with Dr. Goyal">
                     <i class="bi bi-calendar2-check" aria-hidden="true"></i> Book Appointment
                 </a>
@@ -83,42 +83,43 @@
     </div>
 </header>
 
+<?php $activePage = basename($_SERVER['PHP_SELF'] ?? ''); ?>
 <!-- Desktop navigation (sticky) -->
 <div class="nav-row d-none d-lg-block">
     <div class="container">
         <nav class="navbar justify-content-center" aria-label="Main navigation">
             <ul class="navbar-nav flex-row flex-wrap justify-content-center">
-                <li class="nav-item"><a class="nav-link active" href="/" aria-current="page">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html" title="About Dr. Ashish Kumar Goyal">About
+                <li class="nav-item"><a class="nav-link <?= (in_array($activePage, ['', 'index.php'])) ? 'active' : '' ?>" href="/" aria-current="page">Home</a></li>
+                <li class="nav-item"><a class="nav-link <?= ($activePage === 'about.php') ? 'active' : '' ?>" href="about.php" title="About Dr. Ashish Kumar Goyal">About
                         Dr. Goyal</a></li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="specialities.html" aria-haspopup="true">
+                    <a class="nav-link dropdown-toggle" href="specialities.php" aria-haspopup="true">
                         Specialities <i class="bi bi-chevron-down" aria-hidden="true"></i>
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item" href="robotic-joint-replacement.html">
+                            <a class="dropdown-item" href="robotic-joint-replacement.php">
                                 Robotic Joint Replacement
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="total-knee-hip-replacement.html">
+                            <a class="dropdown-item" href="total-knee-hip-replacement.php">
                                 Total Knee & Hip Replacement (TKR & THR)
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="revision-daa-hip-replacement.html">
+                            <a class="dropdown-item" href="revision-daa-hip-replacement.php">
                                 Revision & DAA Hip Replacement
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="complex-trauma-revision-surgeries.html">
+                            <a class="dropdown-item" href="complex-trauma-revision-surgeries.php">
                                 Complex Trauma & Revision Surgeries
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="arthroscopy-sports-injuries.html">
+                            <a class="dropdown-item" href="arthroscopy-sports-injuries.php">
                                 Arthroscopy & Sports Injuries
                             </a>
                         </li>
@@ -126,48 +127,48 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="specialities.html" aria-haspopup="true">
+                    <a class="nav-link dropdown-toggle" href="specialities.php" aria-haspopup="true">
                         Treatments &amp; Services <i class="bi bi-chevron-down" aria-hidden="true"></i>
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item" href="joint-replacement-surgery.html">
+                            <a class="dropdown-item" href="joint-replacement-surgery.php">
                                 Joint Replacement Surgery
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="complex-trauma-revision-surgeries.html">
+                            <a class="dropdown-item" href="complex-trauma-revision-surgeries.php">
                                 Complex Trauma & Revision Surgeries
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="foot-ankle-surgeries.html">
+                            <a class="dropdown-item" href="foot-ankle-surgeries.php">
                                 Foot & Ankle Surgeries
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="arthroscopy-sports-injuries.html">
+                            <a class="dropdown-item" href="arthroscopy-sports-injuries.php">
                                 Arthroscopy & Sports Injuries
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="orthopaedic-oncology.html">
+                            <a class="dropdown-item" href="orthopaedic-oncology.php">
                                 Orthopaedic Oncology
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="regenerative-medicine.html">
+                            <a class="dropdown-item" href="regenerative-medicine.php">
                                 Regenerative Medicine
                             </a>
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="international-patients.html">International
+                <li class="nav-item"><a class="nav-link" href="international-patients.php">International
                         Patients</a></li>
-                <li class="nav-item"><a class="nav-link" href="research-publications.html">Research &amp;
+                <li class="nav-item"><a class="nav-link" href="research-publications.php">Research &amp;
                         Publications</a></li>
-                <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="blogs.php">Blogs</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
             </ul>
         </nav>
     </div>
@@ -183,32 +184,32 @@
     <div class="offcanvas-body">
         <nav aria-label="Mobile navigation">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link active" href="/" aria-current="page">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About Dr. Goyal</a></li>
+                <li class="nav-item"><a class="nav-link <?= (in_array($activePage, ['', 'index.php'])) ? 'active' : '' ?>" href="/" aria-current="page">Home</a></li>
+                <li class="nav-item"><a class="nav-link <?= ($activePage === 'about.php') ? 'active' : '' ?>" href="about.php">About Dr. Goyal</a></li>
                 <li class="nav-item">
                     <a class="nav-link d-flex justify-content-between align-items-center" data-bs-toggle="collapse"
                         href="#mobSpec" role="button" aria-expanded="false" aria-controls="mobSpec">
                         Specialities <i class="bi bi-chevron-down small" aria-hidden="true"></i>
                     </a>
                     <div class="collapse ps-3" id="mobSpec">
-                        <a class="nav-link" href="specialities.html">All Specialities</a>
-                        <a class="nav-link" href="robotic-knee-replacement-surgeon-vadodara.html">Robotic Knee
+                        <a class="nav-link" href="specialities.php">All Specialities</a>
+                        <a class="nav-link" href="robotic-knee-replacement-surgeon-vadodara.php">Robotic Knee
                             Replacement Surgeon in Vadodara</a>
-                        <a class="nav-link" href="acl-specialist-vadodara.html">ACL Specialist in Vadodara</a>
-                        <a class="nav-link" href="meniscus-repair-vadodara.html">Meniscus Repair in Vadodara</a>
+                        <a class="nav-link" href="acl-specialist-vadodara.php">ACL Specialist in Vadodara</a>
+                        <a class="nav-link" href="meniscus-repair-vadodara.php">Meniscus Repair in Vadodara</a>
                     </div>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="treatments-services.html">Treatments &amp;
+                <li class="nav-item"><a class="nav-link" href="treatments-services.php">Treatments &amp;
                         Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="international-patients.html">International
+                <li class="nav-item"><a class="nav-link" href="international-patients.php">International
                         Patients</a></li>
-                <li class="nav-item"><a class="nav-link" href="research-publications.html">Research &amp;
+                <li class="nav-item"><a class="nav-link" href="research-publications.php">Research &amp;
                         Publications</a></li>
-                <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li>
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="blogs.php">Blogs</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
             </ul>
         </nav>
-        <a href="#appointment" class="btn btn-cta w-100 mt-4"><i class="bi bi-calendar2-check me-2"
+        <a href="index.php#appointment" class="btn btn-cta w-100 mt-4"><i class="bi bi-calendar2-check me-2"
                 aria-hidden="true"></i>Book Appointment</a>
         <div class="mt-4 small text-muted">
             <p class="mb-1"><i class="bi bi-clock-fill text-warning me-2" aria-hidden="true"></i>Mon – Sat: 9:00 AM
