@@ -6,7 +6,7 @@ $services = [
         'alt' => 'Robotic-assisted knee and hip replacement surgery',
         'icon' => 'bi-bounding-box-circles',
         'description' => 'Robotic-assisted knee and hip replacement for precision, comfort and improved everyday mobility.',
-        'link' => 'treatments-services.html#joint-replacement'
+        'link' => 'joint-replacement-surgery.php'
     ],
     [
         'title' => 'Complex Trauma & Revision Surgeries',
@@ -14,7 +14,7 @@ $services = [
         'alt' => 'Complex trauma and revision orthopaedic surgery',
         'icon' => 'bi-bandaid',
         'description' => 'Specialised care for complex fractures, failed implants, bone infections and revision surgeries.',
-        'link' => 'treatments-services.html#trauma-revision'
+        'link' => 'complex-trauma-revision-surgeries.php'
     ],
     [
         'title' => 'Foot & Ankle Surgeries',
@@ -22,7 +22,7 @@ $services = [
         'alt' => 'Foot and ankle surgery and treatment',
         'icon' => 'bi-person-walking',
         'description' => 'Expert care for foot deformities, ankle injuries and fractures affecting everyday movement.',
-        'link' => 'treatments-services.html#foot-ankle'
+        'link' => 'foot-ankle-surgeries.php'
     ],
     [
         'title' => 'Arthroscopy & Sports Injuries',
@@ -30,7 +30,7 @@ $services = [
         'alt' => 'Arthroscopy and sports injury treatment',
         'icon' => 'bi-activity',
         'description' => 'Minimally invasive treatment for ligament tears, meniscus injuries and sports-related joint injuries.',
-        'link' => 'treatments-services.html#arthroscopy-sports'
+        'link' => 'arthroscopy-sports-injuries.php'
     ],
     [
         'title' => 'Orthopaedic Oncology',
@@ -38,7 +38,7 @@ $services = [
         'alt' => 'Orthopaedic oncology bone and soft tissue tumour care',
         'icon' => 'bi-shield-plus',
         'description' => 'Specialised evaluation and surgical care for bone and soft tissue tumours, focusing on limb preservation.',
-        'link' => 'treatments-services.html#orthopaedic-oncology'
+        'link' => 'orthopaedic-oncology.php'
     ],
     [
         'title' => 'Regenerative Medicine',
@@ -46,7 +46,7 @@ $services = [
         'alt' => 'PRP and regenerative medicine for joint care',
         'icon' => 'bi-droplet-half',
         'description' => 'Advanced options including PRP and regenerative therapies to support joint and tissue health.',
-        'link' => 'treatments-services.html#regenerative-medicine'
+        'link' => 'regenerative-medicine.php'
     ]
 ];
 

@@ -70,7 +70,7 @@
                         </div> -->
                 </div>
 
-                <a href="index.php#appointment" class="btn btn-cta d-none d-lg-inline-flex align-items-center gap-2"
+                <a href="contact.php" class="btn btn-cta d-none d-lg-inline-flex align-items-center gap-2"
                     title="Book Appointment with Dr. Goyal">
                     <i class="bi bi-calendar2-check" aria-hidden="true"></i> Book Appointment
                 </a>
@@ -127,37 +127,37 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="specialities.php" aria-haspopup="true">
+                    <a class="nav-link dropdown-toggle <?= (in_array($activePage, ['treatments-services.php', 'joint-replacement-surgery.php', 'complex-trauma-revision-surgeries.php', 'foot-ankle-surgeries.php', 'arthroscopy-sports-injuries.php', 'orthopaedic-oncology.php', 'regenerative-medicine.php'])) ? 'active' : '' ?>" href="treatments-services.php" aria-haspopup="true">
                         Treatments &amp; Services <i class="bi bi-chevron-down" aria-hidden="true"></i>
                     </a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item" href="joint-replacement-surgery.php">
+                            <a class="dropdown-item <?= ($activePage === 'joint-replacement-surgery.php') ? 'active' : '' ?>" href="joint-replacement-surgery.php">
                                 Joint Replacement Surgery
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="complex-trauma-revision-surgeries.php">
-                                Complex Trauma & Revision Surgeries
+                            <a class="dropdown-item <?= ($activePage === 'complex-trauma-revision-surgeries.php') ? 'active' : '' ?>" href="complex-trauma-revision-surgeries.php">
+                                Complex Trauma &amp; Revision Surgeries
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="foot-ankle-surgeries.php">
-                                Foot & Ankle Surgeries
+                            <a class="dropdown-item <?= ($activePage === 'foot-ankle-surgeries.php') ? 'active' : '' ?>" href="foot-ankle-surgeries.php">
+                                Foot &amp; Ankle Surgeries
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="arthroscopy-sports-injuries.php">
-                                Arthroscopy & Sports Injuries
+                            <a class="dropdown-item <?= ($activePage === 'arthroscopy-sports-injuries.php') ? 'active' : '' ?>" href="arthroscopy-sports-injuries.php">
+                                Arthroscopy &amp; Sports Injuries
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="orthopaedic-oncology.php">
+                            <a class="dropdown-item <?= ($activePage === 'orthopaedic-oncology.php') ? 'active' : '' ?>" href="orthopaedic-oncology.php">
                                 Orthopaedic Oncology
                             </a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="regenerative-medicine.php">
+                            <a class="dropdown-item <?= ($activePage === 'regenerative-medicine.php') ? 'active' : '' ?>" href="regenerative-medicine.php">
                                 Regenerative Medicine
                             </a>
                         </li>
@@ -199,7 +199,7 @@
                         <a class="nav-link" href="meniscus-repair-vadodara.php">Meniscus Repair in Vadodara</a>
                     </div>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="treatments-services.php">Treatments &amp;
+                <li class="nav-item"><a class="nav-link <?= (in_array($activePage, ['treatments-services.php', 'joint-replacement-surgery.php', 'complex-trauma-revision-surgeries.php', 'foot-ankle-surgeries.php', 'arthroscopy-sports-injuries.php', 'orthopaedic-oncology.php', 'regenerative-medicine.php'])) ? 'active' : '' ?>" href="treatments-services.php">Treatments &amp;
                         Services</a></li>
                 <li class="nav-item"><a class="nav-link" href="international-patients.php">International
                         Patients</a></li>
@@ -209,7 +209,7 @@
                 <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
             </ul>
         </nav>
-        <a href="index.php#appointment" class="btn btn-cta w-100 mt-4"><i class="bi bi-calendar2-check me-2"
+        <a href="contact.php" class="btn btn-cta w-100 mt-4"><i class="bi bi-calendar2-check me-2"
                 aria-hidden="true"></i>Book Appointment</a>
         <div class="mt-4 small text-muted">
             <p class="mb-1"><i class="bi bi-clock-fill text-warning me-2" aria-hidden="true"></i>Mon – Sat: 9:00 AM

@@ -16,8 +16,7 @@ ob_start();
                 </nav>
                 <h1 class="page-banner-title">About <span>Dr. Ashish Kumar Goyal</span></h1>
                 <p class="page-banner-sub">
-                    Consultant Orthopaedic, Robotic Joint Replacement &amp; Arthroscopy Surgeon dedicated to restoring
-                    active, pain-free mobility through international surgical excellence.
+                    Consultant Orthopaedic, Robotic Joint Replacement &amp; Arthroscopy Surgeon.
                 </p>
             </div>
         </div>
@@ -99,7 +98,7 @@ ob_start();
 
                         <!-- Action Buttons -->
                         <div class="about-dr-actions">
-                            <a href="index.php#appointment" class="btn btn-cta d-inline-flex align-items-center gap-2">
+                            <a href="contact.php" class="btn btn-cta d-inline-flex align-items-center gap-2">
                                 <i class="bi bi-calendar2-check" aria-hidden="true"></i> Book Consultation
                             </a>
                             <a href="https://wa.me/917805965989?text=Hello%20Dr.%20Ashish%20Kumar%20Goyal%2C%20I%20would%20like%20to%20consult%20regarding%20Orthopaedic%20Care."
@@ -519,7 +518,7 @@ ob_start();
                 </div>
                 <div class="col-lg-4 text-lg-end">
                     <div class="d-flex flex-wrap gap-3 justify-content-lg-end">
-                        <a href="index.php#appointment" class="btn btn-cta d-inline-flex align-items-center gap-2">
+                        <a href="contact.php" class="btn btn-cta d-inline-flex align-items-center gap-2">
                             <i class="bi bi-calendar2-check" aria-hidden="true"></i> Book Consultation
                         </a>
                         <a href="tel:+917805965989" class="btn btn-outline-light d-inline-flex align-items-center gap-2"
