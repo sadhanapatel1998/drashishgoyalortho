@@ -12,8 +12,6 @@ ob_start();
                 <nav class="page-breadcrumb" aria-label="Breadcrumb">
                     <a href="index.php"><i class="bi bi-house-door-fill" aria-hidden="true"></i> Home</a>
                     <span class="sep" aria-hidden="true"><i class="bi bi-chevron-right"></i></span>
-                    <a href="specialities.php">Specialities</a>
-                    <span class="sep" aria-hidden="true"><i class="bi bi-chevron-right"></i></span>
                     <span class="current" aria-current="page">Total Knee &amp; Hip Replacement</span>
                 </nav>
 

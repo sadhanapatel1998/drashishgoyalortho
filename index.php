@@ -180,12 +180,12 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                             <div class="row hero-row">
                                 <div class="col-lg-7 col-md-7 hero-content-col order-1 order-md-1">
                                     <div class="hero-content">
-                                        <div class="hero-trust-badge">
+                                        <!-- <div class="hero-trust-badge">
                                             <span class="badge-star"><i class="bi bi-heart-pulse-fill"
                                                     aria-hidden="true"></i> Joint Longevity</span>
                                             <span class="badge-sep">•</span>
                                             <span>Comprehensive Knee Preservation</span>
-                                        </div>
+                                        </div> -->
                                         <h2 class="hero-title">Stronger Knees. <span>Lasting Mobility.</span></h2>
                                         <p class="hero-text">From cartilage restoration to advanced partial knee
                                             replacement, get personalized care focused on preserving your natural knee
