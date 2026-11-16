@@ -79,7 +79,7 @@ ob_start();
                     <!-- Right: Visual Card -->
                     <div class="col-lg-5">
                         <div class="speciality-visual-box">
-                            <img src="assets/images/about-us/about-us.webp"
+                            <img src="assets/images/services/total-knee-hip-replacement.jpg"
                                 alt="Dr. Ashish Kumar Goyal - Total Knee and Hip Replacement Specialist"
                                 width="600" height="420" loading="eager" fetchpriority="high">
                             <div class="speciality-floating-tag">

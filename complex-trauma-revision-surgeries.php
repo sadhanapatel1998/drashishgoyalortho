@@ -61,11 +61,11 @@ ob_start();
                         </h2>
 
                         <p class="service-lead-text">
-                            Severe road accidents, high-energy impact injuries, ununited fractures (non-unions), and failed prior surgeries require specialized reconstructive care. Dr. Ashish Kumar Goyal offers advanced limb salvage, anatomical reconstruction, and revision surgery in Vadodara to restore bone stability and joint function.
+                            Severe road traffic accidents, high-energy impact injuries, ununited fractures (non-unions), and failed prior surgeries require specialized reconstructive care. Dr. Ashish Kumar Goyal offers advanced limb salvage, anatomical reconstruction, and revision surgery in Vadodara to restore bone stability and joint function.
                         </p>
 
                         <p class="service-body-text">
-                            Complex trauma involves shattered bone fragments, intra-articular extensions into major joints, open wounds, and soft-tissue trauma that standard fracture casting cannot solve. When prior surgeries fail due to implant breakage, loosening, or infection, revision trauma surgery carefully extracts broken hardware, debrides non-viable tissue, preserves bone stock, and provides definitive biomechanical fixation.
+                            Complex trauma often involves multiple bone fragments, intra-articular extensions into major joints, open soft-tissue wounds, and severe bone loss that standard fracture casting cannot solve. When prior surgeries fail due to implant breakage, loosening, or infection, revision trauma surgery carefully extracts broken hardware, debrides non-viable tissue, preserves native bone biology, and provides definitive biomechanical fixation.
                         </p>
                     </div>
 
@@ -97,7 +97,7 @@ ob_start();
                             </div>
                             <div class="service-benefit-info">
                                 <h4>NHS UK &amp; Apollo Expertise</h4>
-                                <p>Trained in high-velocity trauma centers across the UK (NHS Tayside) and Apollo Hospital New Delhi.</p>
+                                <p>Trained in high-velocity trauma units across NHS Tayside, Royal College of Surgeons UK, and Apollo Hospital New Delhi.</p>
                             </div>
                         </div>
 
@@ -107,7 +107,7 @@ ob_start();
                             </div>
                             <div class="service-benefit-info">
                                 <h4>Biological Fixation Principles</h4>
-                                <p>Minimally invasive plate osteosynthesis (MIPO) preserving blood supply and accelerating bone healing.</p>
+                                <p>Minimally invasive plate osteosynthesis (MIPO) preserving blood supply and periosteal biology for fast union.</p>
                             </div>
                         </div>
 
@@ -117,7 +117,7 @@ ob_start();
                             </div>
                             <div class="service-benefit-info">
                                 <h4>Advanced Locking Implants</h4>
-                                <p>Titanium anatomical locking compression plates (LCP) and retro-grade nails providing superior rigid purchase.</p>
+                                <p>Titanium anatomical locked compression plates (LCP) and modular reconstruction nails providing rigid purchase.</p>
                             </div>
                         </div>
 
@@ -127,184 +127,317 @@ ob_start();
                             </div>
                             <div class="service-benefit-info">
                                 <h4>Limb Salvage Dedication</h4>
-                                <p>Comprehensive multi-stage reconstruction aimed at avoiding amputation and preserving maximum native limb function.</p>
+                                <p>Comprehensive multi-stage salvage protocols avoiding amputation and preserving natural limb length and function.</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Surgical Procedures We Perform -->
+                    <!-- Specialized Procedures Grid -->
                     <h3 class="service-subheading">
                         Comprehensive Trauma &amp; <span>Revision Procedures</span>
                     </h3>
 
-                    <div class="row g-3 mb-4">
-                        <div class="col-md-6">
-                            <div class="service-procedure-card">
-                                <div class="procedure-icon" aria-hidden="true">
+                    <div class="service-proc-grid">
+                        <!-- Procedure 1 -->
+                        <div class="service-proc-item">
+                            <div class="service-proc-top">
+                                <div class="service-proc-icon" aria-hidden="true">
+                                    <i class="bi bi-activity"></i>
+                                </div>
+                                <span class="service-proc-badge">Bone Reconstruction</span>
+                            </div>
+                            <h4>Non-Union &amp; Malunion Correction</h4>
+                            <p>
+                                Treatment for fractures that failed to join or healed in abnormal alignment, using biological bone grafting, osteotomies, and rigid compression fixation.
+                            </p>
+                            <ul class="service-proc-bullets">
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Biological autologous bone grafting</li>
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Anatomical axis &amp; limb length realignment</li>
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Eliminates chronic fracture site pain</li>
+                            </ul>
+                        </div>
+
+                        <!-- Procedure 2 -->
+                        <div class="service-proc-item">
+                            <div class="service-proc-top">
+                                <div class="service-proc-icon" aria-hidden="true">
                                     <i class="bi bi-tools"></i>
                                 </div>
-                                <div class="procedure-info">
-                                    <h4>Non-Union &amp; Malunion Correction</h4>
-                                    <p>Treatment for fractures that failed to join or healed in abnormal alignment, using biological bone grafting, osteotomies, and rigid compression fixation.</p>
-                                </div>
+                                <span class="service-proc-badge">Hardware Salvage</span>
                             </div>
+                            <h4>Failed Hardware &amp; Implant Revision</h4>
+                            <p>
+                                Safe extraction of snapped intramedullary nails, stripped screws, and loose plates, followed by anatomical revision with heavy-duty implants.
+                            </p>
+                            <ul class="service-proc-bullets">
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Specialized broken screw extraction</li>
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Heavy-duty titanium revision plates</li>
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Preserves surrounding healthy bone stock</li>
+                            </ul>
                         </div>
 
-                        <div class="col-md-6">
-                            <div class="service-procedure-card">
-                                <div class="procedure-icon" aria-hidden="true">
-                                    <i class="bi bi-arrow-repeat"></i>
-                                </div>
-                                <div class="procedure-info">
-                                    <h4>Failed Hardware &amp; Implant Revision</h4>
-                                    <p>Safe extraction of snapped intramedullary nails, stripped screws, and loose plates, followed by anatomical revision with heavy-duty implants.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="service-procedure-card">
-                                <div class="procedure-icon" aria-hidden="true">
+                        <!-- Procedure 3 -->
+                        <div class="service-proc-item">
+                            <div class="service-proc-top">
+                                <div class="service-proc-icon" aria-hidden="true">
                                     <i class="bi bi-shield-shaded"></i>
                                 </div>
-                                <div class="procedure-info">
-                                    <h4>Pelvic &amp; Acetabular Reconstruction</h4>
-                                    <p>Surgical reconstruction of fractured hip sockets and pelvic rings caused by high-energy vehicular trauma to preserve natural hip function.</p>
-                                </div>
+                                <span class="service-proc-badge">High-Energy Trauma</span>
                             </div>
+                            <h4>Pelvic &amp; Acetabular Reconstruction</h4>
+                            <p>
+                                Surgical reconstruction of fractured hip sockets and pelvic rings caused by high-energy vehicular trauma to preserve natural hip function.
+                            </p>
+                            <ul class="service-proc-bullets">
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> 3D CT surgical virtual roadmap</li>
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Restores smooth anatomic joint surface</li>
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Prevents premature post-traumatic arthritis</li>
+                            </ul>
                         </div>
 
-                        <div class="col-md-6">
-                            <div class="service-procedure-card">
-                                <div class="procedure-icon" aria-hidden="true">
+                        <!-- Procedure 4 -->
+                        <div class="service-proc-item">
+                            <div class="service-proc-top">
+                                <div class="service-proc-icon" aria-hidden="true">
                                     <i class="bi bi-capsule"></i>
                                 </div>
-                                <div class="procedure-info">
-                                    <h4>Post-Surgical Infection (Osteomyelitis) Salvage</h4>
-                                    <p>Staged eradication of deep bone infections using antibiotic-impregnated bone cement spacers, local debridement, and biological limb salvage.</p>
-                                </div>
+                                <span class="service-proc-badge">Infection Control</span>
                             </div>
+                            <h4>Infection &amp; Staged Salvage (Osteomyelitis)</h4>
+                            <p>
+                                Systematic eradication of deep bone infections using antibiotic-impregnated bone cement spacers, local debridement, and staged biological limb salvage.
+                            </p>
+                            <ul class="service-proc-bullets">
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> High success in avoiding amputation</li>
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Targeted local antibiotic elution</li>
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Final definitive structural reconstruction</li>
+                            </ul>
+                        </div>
+
+                        <!-- Procedure 5 -->
+                        <div class="service-proc-item">
+                            <div class="service-proc-top">
+                                <div class="service-proc-icon" aria-hidden="true">
+                                    <i class="bi bi-diagram-3-fill"></i>
+                                </div>
+                                <span class="service-proc-badge">Periprosthetic Care</span>
+                            </div>
+                            <h4>Periprosthetic Fracture Fixation</h4>
+                            <p>
+                                Specialized stabilization for fractures occurring around existing hip or knee replacement implants, using cable-plate systems or modular revision stems.
+                            </p>
+                            <ul class="service-proc-bullets">
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Rigid fixation preserving stable implants</li>
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Modular revision stems for loose implants</li>
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Early protected weight-bearing recovery</li>
+                            </ul>
+                        </div>
+
+                        <!-- Procedure 6 -->
+                        <div class="service-proc-item">
+                            <div class="service-proc-top">
+                                <div class="service-proc-icon" aria-hidden="true">
+                                    <i class="bi bi-crosshair"></i>
+                                </div>
+                                <span class="service-proc-badge">Joint Reconstruction</span>
+                            </div>
+                            <h4>Complex Peri-Articular Fractures</h4>
+                            <p>
+                                Precision intra-articular reconstruction for shattered bone fractures extending into knee (tibial plateau), ankle (pilon), or elbow joints.
+                            </p>
+                            <ul class="service-proc-bullets">
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Sub-millimeter articular step-off reduction</li>
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Minimally invasive biological plating</li>
+                                <li><i class="bi bi-check2-circle" aria-hidden="true"></i> Restores full pain-free joint mobility</li>
+                            </ul>
                         </div>
                     </div>
 
-                    <!-- Who Needs This Service / Clinical Candidacy -->
-                    <div class="service-candidacy-box">
-                        <h3 class="service-subheading mb-3">
-                            When Should You Seek <span>Revision Trauma Evaluation?</span>
-                        </h3>
-                        <p class="service-body-text mb-3">
-                            You may require specialized evaluation by Dr. Ashish Kumar Goyal if you experience any of the following clinical signs:
-                        </p>
-                        <ul class="service-check-list">
-                            <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Fracture has not united after 6–9 months of initial casting or surgical fixation.</li>
-                            <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Persistent or increasing pain, swelling, or heat at the previous fracture or plate site.</li>
-                            <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Obvious leg shortening, abnormal rotation, or visible deformity affecting walking ability.</li>
-                            <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> Draining sinus, recurrent discharge, or suspicion of infection around implanted hardware.</li>
-                            <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> X-ray shows broken screws, bent plates, or bone re-fracture around an implant.</li>
-                        </ul>
-                    </div>
-
-                    <!-- Recovery & Rehabilitation Milestones -->
+                    <!-- Symptoms & Clinical Indications (2-Col Box) -->
                     <h3 class="service-subheading">
-                        Reconstruction &amp; <span>Recovery Roadmap</span>
+                        When Should You Seek <span>Revision Trauma Evaluation?</span>
                     </h3>
 
-                    <div class="service-timeline">
-                        <div class="service-timeline-item">
-                            <div class="timeline-step">1</div>
-                            <div class="timeline-content">
-                                <h4>Phase 1: Diagnostic Assessment &amp; 3D Imaging (Pre-Op)</h4>
-                                <p>High-resolution CT scans with 3D reconstructions map the fracture architecture. Infection blood markers (ESR, CRP) are checked to plan custom reconstructive surgery.</p>
-                            </div>
+                    <div class="service-indications-wrap">
+                        <div class="service-indication-box">
+                            <h4><i class="bi bi-exclamation-triangle-fill" aria-hidden="true"></i> Warning Symptoms</h4>
+                            <ul class="service-indication-list">
+                                <li>
+                                    <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                                    <span><strong>Persistent Bone Pain:</strong> Deep aching pain at the fracture site that persists months after surgery.</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                                    <span><strong>Limb Shortening or Twisting:</strong> Visible deformity, abnormal rotation, or uneven leg length when walking.</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                                    <span><strong>Implant Irritation or Looseness:</strong> Sensation of clicking, hardware protrusion, or instability at the surgical site.</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                                    <span><strong>Signs of Infection:</strong> Redness, continuous warmth, swelling, or discharging fluid around old surgical scars.</span>
+                                </li>
+                            </ul>
                         </div>
 
-                        <div class="service-timeline-item">
-                            <div class="timeline-step">2</div>
-                            <div class="timeline-content">
-                                <h4>Phase 2: Surgical Reconstruction &amp; Biological Fixation</h4>
-                                <p>Hardware revision, biological bone grafting, and rigid anatomical stabilization are performed in Class 100 modular laminar airflow operating theaters.</p>
-                            </div>
-                        </div>
-
-                        <div class="service-timeline-item">
-                            <div class="timeline-step">3</div>
-                            <div class="timeline-content">
-                                <h4>Phase 3: Protected Early Mobilization (Weeks 1–6)</h4>
-                                <p>Under physical therapy guidance, adjacent joint range-of-motion is maintained while bone union progresses without overloading the healing construct.</p>
-                            </div>
-                        </div>
-
-                        <div class="service-timeline-item">
-                            <div class="timeline-step">4</div>
-                            <div class="timeline-content">
-                                <h4>Phase 4: Progressive Weight-Bearing &amp; Functional Restoration (Months 2–6)</h4>
-                                <p>Serial digital X-rays confirm solid biological bridging callous. Patients transition to full independent weight-bearing and return to daily occupations.</p>
-                            </div>
+                        <div class="service-indication-box">
+                            <h4><i class="bi bi-clipboard2-pulse-fill" aria-hidden="true"></i> Conditions Treated</h4>
+                            <ul class="service-indication-list">
+                                <li>
+                                    <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                                    <span><strong>Non-Union Fractures:</strong> Bone healing has halted after 6 to 9 months of initial casting or fixation.</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                                    <span><strong>Hardware Failure:</strong> Broken intramedullary rods, bent titanium plates, or loose surgical screws.</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                                    <span><strong>Chronic Osteomyelitis:</strong> Deep-seated bacterial infection in bone requiring staged eradication.</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                                    <span><strong>Complex Pelvic &amp; Joint Fractures:</strong> High-impact injuries requiring specialized anatomical reduction.</span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
 
-                    <!-- FAQ Section -->
+                    <!-- Comparison Table -->
+                    <h3 class="service-subheading">
+                        Sub-Optimal / Delayed Care vs. <span>Advanced Revision Care</span>
+                    </h3>
+
+                    <div class="service-compare-wrap mb-4">
+                        <table class="service-compare-table" aria-label="Comparison between sub-optimal fracture care and advanced revision trauma surgery">
+                            <thead>
+                                <tr>
+                                    <th class="param-col">Clinical Parameter</th>
+                                    <th class="conv-col">Delayed / Sub-Optimal Care</th>
+                                    <th class="robo-col">Advanced Trauma &amp; Revision Surgery</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="param-name">Non-Union Healing</td>
+                                    <td class="conv-val">Ongoing pain, fatigue breakage of hardware</td>
+                                    <td class="robo-val">Biological bone grafting with 95%+ solid union</td>
+                                </tr>
+                                <tr>
+                                    <td class="param-name">Broken Hardware</td>
+                                    <td class="conv-val">Inability to bear weight, limb shortening</td>
+                                    <td class="robo-val">Specialized safe extraction &amp; heavy-duty re-fixation</td>
+                                </tr>
+                                <tr>
+                                    <td class="param-name">Deep Bone Infection</td>
+                                    <td class="conv-val">Recurrent pus drainage, risk of amputation</td>
+                                    <td class="robo-val">Staged antibiotic spacers &amp; biological limb salvage</td>
+                                </tr>
+                                <tr>
+                                    <td class="param-name">Limb Deformity</td>
+                                    <td class="conv-val">Permanent limp and chronic back/hip strain</td>
+                                    <td class="robo-val">Corrective osteotomy restoring equal limb length</td>
+                                </tr>
+                                <tr>
+                                    <td class="param-name">OT Sterility &amp; Safety</td>
+                                    <td class="conv-val">Standard hospital operating rooms</td>
+                                    <td class="robo-val">Ultra-sterile Class 100 laminar airflow surgical suites</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Patient Recovery Pathway -->
+                    <h3 class="service-subheading">
+                        Your Structured <span>Pathway to Recovery</span>
+                    </h3>
+
+                    <div class="service-recovery-strip">
+                        <div class="service-recovery-step">
+                            <span class="service-step-num">01</span>
+                            <h5>3D CT Mapping</h5>
+                            <p>High-resolution CT scans and infection blood marker workup.</p>
+                        </div>
+                        <div class="service-recovery-step">
+                            <span class="service-step-num">02</span>
+                            <h5>Biological Revision</h5>
+                            <p>Hardware revision and biological rigid stabilization in Class 100 OT.</p>
+                        </div>
+                        <div class="service-recovery-step">
+                            <span class="service-step-num">03</span>
+                            <h5>Protected Mobility</h5>
+                            <p>Early physiotherapy for adjacent joint motion without overload.</p>
+                        </div>
+                        <div class="service-recovery-step">
+                            <span class="service-step-num">04</span>
+                            <h5>Full Weight-Bearing</h5>
+                            <p>Progressive weight-bearing as solid bridging bone callous forms.</p>
+                        </div>
+                    </div>
+
+                    <!-- Patient FAQs -->
                     <h3 class="service-subheading">
                         Frequently Asked <span>Questions</span>
                     </h3>
 
-                    <div class="accordion service-accordion" id="serviceFaqAccordion">
+                    <div class="accordion mb-4" id="serviceFaqAccordion">
                         <div class="service-faq-item">
-                            <h4 class="accordion-header" id="faqHeading1">
+                            <h4 class="accordion-header" id="faqOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse1" aria-expanded="true" aria-controls="faqCollapse1">
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     What causes a bone fracture to become a non-union?
                                 </button>
                             </h4>
-                            <div id="faqCollapse1" class="accordion-collapse collapse show"
-                                aria-labelledby="faqHeading1" data-bs-parent="#serviceFaqAccordion">
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="faqOne" data-bs-parent="#serviceFaqAccordion">
                                 <div class="accordion-body">
-                                    Non-union happens when fracture healing halts. Common causes include inadequate surgical stabilization, excessive gap between bone fragments, compromised blood supply, severe open injuries, smoking, uncontrolled diabetes, or low-grade bacterial infection at the fracture site.
+                                    Non-union happens when the biological healing process of bone halts. Common causes include inadequate surgical stabilization allowing microscopic movement, a large gap between bone ends, compromised blood supply, severe open soft-tissue injuries, tobacco smoking, uncontrolled diabetes, or low-grade bacterial infection at the fracture site.
                                 </div>
                             </div>
                         </div>
 
                         <div class="service-faq-item">
-                            <h4 class="accordion-header" id="faqHeading2">
+                            <h4 class="accordion-header" id="faqTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse2" aria-expanded="false" aria-controls="faqCollapse2">
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                     Is revision trauma surgery more complex than the first surgery?
                                 </button>
                             </h4>
-                            <div id="faqCollapse2" class="accordion-collapse collapse"
-                                aria-labelledby="faqHeading2" data-bs-parent="#serviceFaqAccordion">
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="faqTwo" data-bs-parent="#serviceFaqAccordion">
                                 <div class="accordion-body">
-                                    Yes. Revision surgery must navigate dense surgical scar tissue, altered anatomy, bone loss, and potential hardware breakage. Dr. Ashish Kumar Goyal uses specialized extraction instruments and heavy-duty revision locking systems to safely reconstruct the bone with high success rates.
+                                    Yes. Revision surgery must navigate dense scar tissue from previous operations, altered anatomy, stripped bone biology, and broken or stripped screws. Dr. Ashish Kumar Goyal uses specialized extraction instruments and heavy-duty revision locking systems to safely reconstruct the bone with high success rates.
                                 </div>
                             </div>
                         </div>
 
                         <div class="service-faq-item">
-                            <h4 class="accordion-header" id="faqHeading3">
+                            <h4 class="accordion-header" id="faqThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse3" aria-expanded="false" aria-controls="faqCollapse3">
-                                    Can infected bones and implants be treated without amputation?
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Can infected bones and hardware be treated without amputation?
                                 </button>
                             </h4>
-                            <div id="faqCollapse3" class="accordion-collapse collapse"
-                                aria-labelledby="faqHeading3" data-bs-parent="#serviceFaqAccordion">
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="faqThree" data-bs-parent="#serviceFaqAccordion">
                                 <div class="accordion-body">
-                                    In the vast majority of cases, yes. Dr. Goyal utilizes modern staged limb salvage protocols: removing infected hardware, applying localized antibiotic-eluting spacers, optimizing systemic culture-directed antibiotics, and subsequently performing definitive biological bone grafting once the infection is eradicated.
+                                    In the vast majority of cases, yes. Dr. Goyal utilizes modern staged limb salvage protocols: removing infected hardware, applying localized antibiotic-eluting cement spacers, administering culture-directed antibiotics, and subsequently performing definitive biological bone grafting once the infection is completely eradicated.
                                 </div>
                             </div>
                         </div>
 
                         <div class="service-faq-item">
-                            <h4 class="accordion-header" id="faqHeading4">
+                            <h4 class="accordion-header" id="faqFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#faqCollapse4" aria-expanded="false" aria-controls="faqCollapse4">
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                     Does health insurance cover revision trauma and fracture surgeries?
                                 </button>
                             </h4>
-                            <div id="faqCollapse4" class="accordion-collapse collapse"
-                                aria-labelledby="faqHeading4" data-bs-parent="#serviceFaqAccordion">
+                            <div id="collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="faqFour" data-bs-parent="#serviceFaqAccordion">
                                 <div class="accordion-body">
-                                    Yes. Medically necessary fracture fixation, non-union corrections, and revision procedures are covered under major private health insurance and government schemes. Our hospital desk provides seamless cashless Mediclaim processing and documentation.
+                                    Yes. Medically necessary fracture fixation, non-union corrections, hardware extractions, and revision procedures are covered under major private health insurance and government healthcare schemes. Our hospital desk provides seamless cashless Mediclaim processing and documentation.
                                 </div>
                             </div>
                         </div>
@@ -313,7 +446,7 @@ ob_start();
                     <!-- Small In-Content CTA Section -->
                     <div class="service-small-cta">
                         <div class="service-small-cta-content">
-                            <h3>Need a Second Opinion on a <span>Fracture or Implant?</span></h3>
+                            <h3>Need an Expert Opinion on a <span>Fracture or Implant?</span></h3>
                             <p>Consult Dr. Ashish Kumar Goyal in Vadodara to evaluate your imaging, examine failed hardware, and plan comprehensive reconstructive care.</p>
                         </div>
                         <div class="service-small-cta-actions">

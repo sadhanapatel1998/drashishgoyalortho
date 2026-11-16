@@ -241,10 +241,10 @@ button:focus-visible {
 }
 
 .navbar-nav .nav-link {
-  font-size: 0.9rem;
+  font-size: 15px;
   font-weight: 500;
   color: var(--text);
-  padding: 14px 14px;
+  padding: 14px 18px;
   position: relative;
   transition: color 0.2s;
 }
@@ -254,7 +254,7 @@ button:focus-visible {
   position: absolute;
   left: 16px;
   right: 16px;
-  bottom: 6px;
+  bottom: 0px;
   height: 2px;
   background: var(--brand-orange);
   transform: scaleX(0);
@@ -5693,7 +5693,7 @@ font-size: 13px;
 .speciality-title {
   font-family: "Montserrat", sans-serif;
   font-size: clamp(26px, 3.2vw, 38px);
-  font-weight: 800;
+  font-weight: 700;
   color: #171717;
   line-height: 1.25;
   margin-bottom: 16px;

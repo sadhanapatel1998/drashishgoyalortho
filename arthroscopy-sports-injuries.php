@@ -79,7 +79,7 @@ ob_start();
                     <!-- Right: Visual Card -->
                     <div class="col-lg-5">
                         <div class="speciality-visual-box">
-                            <img src="assets/images/services/arthroscopy-sports-injuries.jpg"
+                            <img src="assets/images/services/arthroscopy-sports.jpg"
                                 alt="Arthroscopy and Sports Injury Surgery by Dr. Ashish Kumar Goyal in Vadodara"
                                 width="600" height="420" loading="eager" fetchpriority="high">
                             <div class="speciality-floating-tag">
