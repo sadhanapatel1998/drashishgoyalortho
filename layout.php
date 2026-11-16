@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <!-- ================= PRIMARY SEO ================= -->
-    <title>Dr. Ashish Kumar Goyal | Robotic Knee Replacement & ACL Surgeon in Vadodara</title>
+    <!-- <title>Dr. Ashish Kumar Goyal | Robotic Knee Replacement & ACL Surgeon in Vadodara</title>
     <meta name="description"
         content="Dr. Ashish Kumar Goyal is an orthopedic surgeon in Vadodara specialising in robotic knee replacement, ACL reconstruction, meniscus repair, arthroscopy and sports injuries. Book your appointment today.">
     <meta name="keywords"
@@ -18,13 +17,11 @@
     <link rel="alternate" hreflang="en-in" href="https://www.drashishgoyalortho.com/">
     <link rel="alternate" hreflang="x-default" href="https://www.drashishgoyalortho.com/">
 
-    <!-- Local SEO (Geo) -->
     <meta name="geo.region" content="IN-GJ">
     <meta name="geo.placename" content="Vadodara">
     <meta name="geo.position" content="22.2587;73.1900">
     <meta name="ICBM" content="22.2587, 73.1900">
 
-    <!-- ================= OPEN GRAPH / SOCIAL ================= -->
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_IN">
     <meta property="og:site_name" content="Dr. Ashish Kumar Goyal">
@@ -41,13 +38,29 @@
     <meta name="twitter:title" content="Dr. Ashish Kumar Goyal | Orthopedic Surgeon in Vadodara">
     <meta name="twitter:description"
         content="Robotic knee replacement, ACL & meniscus repair, arthroscopy and sports injury specialist.">
-    <meta name="twitter:image" content="https://www.drashishgoyalortho.com/assets/images/og-image.jpg">
+    <meta name="twitter:image" content="https://www.drashishgoyalortho.com/assets/images/og-image.jpg"> -->
 
-    <!-- Theme & Favicons -->
-    <meta name="theme-color" content="#F58220">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <?php include 'include/seo.php'; ?>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="assets/favicon/image/x-icon">
+
+    <!-- PNG Favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+
+    <!-- Android Chrome Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon/android-chrome-512x512.png">
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#ffffff">
 
     <!-- ================= PERFORMANCE ================= -->
     <link rel="preconnect" href="https://fonts.googleapis.com">

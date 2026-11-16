@@ -34,11 +34,11 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                             <div class="row hero-row">
                                 <div class="col-lg-7 col-md-7 hero-content-col order-1 order-md-1">
                                     <div class="hero-content">
-                                        <!-- <div class="hero-trust-badge">
-                                                <span class="badge-star"><i class="bi bi-star-fill" aria-hidden="true"></i> 4.9/5 Rating</span>
-                                                <span class="badge-sep">•</span>
-                                                <span>Vadodara's Premier Robotic Orthopaedic Centre</span>
-                                            </div> -->
+                                        <div class="hero-eyebrow-tag">
+                                            <span class="eyebrow-bar" aria-hidden="true"></span>
+                                            <span>ORTHOPAEDIC | JOINT | SPORTS INJURY</span>
+                                            <span class="eyebrow-bar" aria-hidden="true"></span>
+                                        </div>
                                         <!-- Only ONE H1 per page -->
                                         <h1 class="hero-title">Move Better. <span>Live Pain-Free.</span></h1>
                                         <p class="hero-text">Experience next-generation AI &amp; Robotic Joint
@@ -46,16 +46,23 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                                             same-day mobility.</p>
 
                                         <div class="hero-feature-pills">
-                                            <span class="hero-pill"><i class="bi bi-check-circle-fill"
-                                                    aria-hidden="true"></i> Sub-mm Accuracy</span>
-                                            <span class="hero-pill"><i class="bi bi-check-circle-fill"
-                                                    aria-hidden="true"></i> Walk in 24–48 Hours</span>
-                                            <span class="hero-pill"><i class="bi bi-check-circle-fill"
-                                                    aria-hidden="true"></i> 100% Cashless TPA</span>
+                                            <span class="hero-pill">
+                                                <i class="bi bi-bandaid" aria-hidden="true"></i>
+                                                <span>Keyhole Surgery</span>
+                                            </span>
+                                            <span class="hero-pill">
+                                                <i class="bi bi-shield-check" aria-hidden="true"></i>
+                                                <span>Faster Recovery</span>
+                                            </span>
+                                            <span class="hero-pill">
+                                                <i class="bi bi-person-walking" aria-hidden="true"></i>
+                                                <span>Sports Injury Care</span>
+                                            </span>
                                         </div>
 
                                         <div class="hero-actions">
                                             <a href="#appointment" class="hero-btn-primary">
+                                                <i class="bi bi-calendar2-check" aria-hidden="true"></i>
                                                 <span>Book Appointment</span>
                                                 <i class="bi bi-arrow-right" aria-hidden="true"></i>
                                             </a>
@@ -74,24 +81,24 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                                         <div class="hero-img-wrap">
                                             <img src="assets/images/doctor.png"
                                                 alt="Robotic knee replacement surgeon in Vadodara - Dr. Ashish Kumar Goyal"
-                                                width="640" height="620" fetchpriority="high" decoding="async">
+                                                width="640" height="620" loading="eager" fetchpriority="high" decoding="async">
                                         </div>
                                         <!-- Floating Trust Badge 1 -->
                                         <div class="hero-float-card hero-float-tl">
-                                            <div class="float-icon"><i class="bi bi-award" aria-hidden="true"></i>
+                                            <div class="float-icon"><i class="bi bi-trophy-fill" aria-hidden="true"></i>
                                             </div>
                                             <div class="float-body">
-                                                <strong>15+ Years</strong>
-                                                <span>Clinical Excellence</span>
+                                                <strong>5,000+</strong>
+                                                <span>Successful Surgeries</span>
                                             </div>
                                         </div>
                                         <!-- Floating Trust Badge 2 -->
                                         <div class="hero-float-card hero-float-br">
-                                            <div class="float-icon float-icon-accent"><i class="bi bi-robot"
+                                            <div class="float-icon float-icon-accent"><i class="bi bi-calendar2-check-fill"
                                                     aria-hidden="true"></i></div>
                                             <div class="float-body">
-                                                <strong>AI &amp; Robotic</strong>
-                                                <span>Knee Specialist</span>
+                                                <strong>10+ Years</strong>
+                                                <span>of Experience</span>
                                             </div>
                                         </div>
                                     </div>
@@ -108,34 +115,42 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                             <div class="row hero-row">
                                 <div class="col-lg-7 col-md-7 hero-content-col order-1 order-md-1">
                                     <div class="hero-content">
-                                        <!-- <div class="hero-trust-badge">
-                                                <span class="badge-star"><i class="bi bi-lightning-charge-fill" aria-hidden="true"></i> Sports Medicine</span>
-                                                <span class="badge-sep">•</span>
-                                                <span>Fellowship-Trained Arthroscopy Specialist</span>
-                                            </div> -->
+                                        <div class="hero-eyebrow-tag">
+                                            <span class="eyebrow-bar" aria-hidden="true"></span>
+                                            <span>SPORTS MEDICINE | ARTHROSCOPY | ACL</span>
+                                            <span class="eyebrow-bar" aria-hidden="true"></span>
+                                        </div>
                                         <h2 class="hero-title">Get Back to <span>Your Active Life.</span></h2>
                                         <p class="hero-text">Minimally invasive keyhole surgeries for ACL, PCL, and
                                             Meniscus tears—engineered to restore peak athletic stability and lasting
                                             joint longevity.</p>
 
                                         <div class="hero-feature-pills">
-                                            <span class="hero-pill"><i class="bi bi-check-circle-fill"
-                                                    aria-hidden="true"></i> Keyhole Arthroscopy</span>
-                                            <span class="hero-pill"><i class="bi bi-check-circle-fill"
-                                                    aria-hidden="true"></i> Ligament Preservation</span>
-                                            <span class="hero-pill"><i class="bi bi-check-circle-fill"
-                                                    aria-hidden="true"></i> Accelerated Return</span>
+                                            <span class="hero-pill">
+                                                <i class="bi bi-activity" aria-hidden="true"></i>
+                                                <span>Keyhole Arthroscopy</span>
+                                            </span>
+                                            <span class="hero-pill">
+                                                <i class="bi bi-shield-check" aria-hidden="true"></i>
+                                                <span>Ligament Care</span>
+                                            </span>
+                                            <span class="hero-pill">
+                                                <i class="bi bi-lightning-charge-fill" aria-hidden="true"></i>
+                                                <span>Accelerated Return</span>
+                                            </span>
                                         </div>
 
                                         <div class="hero-actions">
                                             <a href="#appointment" class="hero-btn-primary">
+                                                <i class="bi bi-calendar2-check" aria-hidden="true"></i>
                                                 <span>Consult Now</span>
                                                 <i class="bi bi-arrow-right" aria-hidden="true"></i>
                                             </a>
-                                            <a href="tel:+919429197711" class="hero-btn-secondary"
-                                                aria-label="Call clinic directly">
-                                                <i class="bi bi-telephone-fill" aria-hidden="true"></i>
-                                                <span>+91 94291 97711</span>
+                                            <a href="https://wa.me/919429197711?text=Hello%20Dr.%20Ashish%20Kumar%20Goyal%2C%20I%20would%20like%20to%20consult%20regarding%20Sports%20Injuries."
+                                                target="_blank" rel="noopener noreferrer" class="hero-btn-secondary"
+                                                aria-label="Chat on WhatsApp with Dr. Ashish Kumar Goyal">
+                                                <i class="bi bi-whatsapp" aria-hidden="true"></i>
+                                                <span>WhatsApp Us</span>
                                             </a>
                                         </div>
                                     </div>
@@ -146,11 +161,11 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                                         <div class="hero-img-wrap">
                                             <img src="assets/images/doctor.png"
                                                 alt="ACL treatment and arthroscopic surgery specialist in Vadodara"
-                                                width="640" height="620" loading="lazy" decoding="async">
+                                                width="640" height="620" loading="eager" fetchpriority="high" decoding="async">
                                         </div>
                                         <!-- Floating Trust Badge 1 -->
                                         <div class="hero-float-card hero-float-tl">
-                                            <div class="float-icon"><i class="bi bi-shield-check"
+                                            <div class="float-icon"><i class="bi bi-trophy-fill"
                                                     aria-hidden="true"></i></div>
                                             <div class="float-body">
                                                 <strong>5,000+</strong>
@@ -180,28 +195,34 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                             <div class="row hero-row">
                                 <div class="col-lg-7 col-md-7 hero-content-col order-1 order-md-1">
                                     <div class="hero-content">
-                                        <!-- <div class="hero-trust-badge">
-                                            <span class="badge-star"><i class="bi bi-heart-pulse-fill"
-                                                    aria-hidden="true"></i> Joint Longevity</span>
-                                            <span class="badge-sep">•</span>
-                                            <span>Comprehensive Knee Preservation</span>
-                                        </div> -->
+                                        <div class="hero-eyebrow-tag">
+                                            <span class="eyebrow-bar" aria-hidden="true"></span>
+                                            <span>KNEE PRESERVATION | CARTILAGE | MOBILITY</span>
+                                            <span class="eyebrow-bar" aria-hidden="true"></span>
+                                        </div>
                                         <h2 class="hero-title">Stronger Knees. <span>Lasting Mobility.</span></h2>
                                         <p class="hero-text">From cartilage restoration to advanced partial knee
                                             replacement, get personalized care focused on preserving your natural knee
                                             kinematics.</p>
 
                                         <div class="hero-feature-pills">
-                                            <span class="hero-pill"><i class="bi bi-check-circle-fill"
-                                                    aria-hidden="true"></i> Cartilage Therapies</span>
-                                            <span class="hero-pill"><i class="bi bi-check-circle-fill"
-                                                    aria-hidden="true"></i> Zero-Infection OT</span>
-                                            <span class="hero-pill"><i class="bi bi-check-circle-fill"
-                                                    aria-hidden="true"></i> Personalized Physio</span>
+                                            <span class="hero-pill">
+                                                <i class="bi bi-droplet-half" aria-hidden="true"></i>
+                                                <span>Cartilage Therapies</span>
+                                            </span>
+                                            <span class="hero-pill">
+                                                <i class="bi bi-hospital" aria-hidden="true"></i>
+                                                <span>Zero-Infection OT</span>
+                                            </span>
+                                            <span class="hero-pill">
+                                                <i class="bi bi-heart-pulse-fill" aria-hidden="true"></i>
+                                                <span>Personalized Physio</span>
+                                            </span>
                                         </div>
 
                                         <div class="hero-actions">
                                             <a href="#appointment" class="hero-btn-primary">
+                                                <i class="bi bi-calendar2-check" aria-hidden="true"></i>
                                                 <span>Book Consultation</span>
                                                 <i class="bi bi-arrow-right" aria-hidden="true"></i>
                                             </a>
@@ -220,7 +241,7 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                                         <div class="hero-img-wrap">
                                             <img src="assets/images/doctor.png"
                                                 alt="Meniscus repair and minimally invasive knee treatment in Vadodara"
-                                                width="640" height="620" loading="lazy" decoding="async">
+                                                width="640" height="620" loading="eager" fetchpriority="high" decoding="async">
                                         </div>
                                         <!-- Floating Trust Badge 1 -->
                                         <div class="hero-float-card hero-float-tl">
