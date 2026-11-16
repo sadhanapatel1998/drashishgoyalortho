@@ -162,8 +162,8 @@
                         </li>
                     </ul>
                 </li>
-                <!-- <li class="nav-item"><a class="nav-link" href="international-patients.php">International
-                        Patients</a></li> -->
+                <li class="nav-item"><a class="nav-link" href="international-patients.php">International
+                        Patients</a></li>
                 <li class="nav-item"><a class="nav-link" href="research-publications.php">Research &amp;
                         Publications</a></li>
                 <li class="nav-item"><a class="nav-link <?= ($activePage === 'blogs.php') ? 'active' : '' ?>" href="blogs.php">Blogs</a></li>
