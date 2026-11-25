@@ -54,7 +54,7 @@ ob_start();
                     <div class="col-lg-6 text-lg-end">
                         <div class="sitemap-stats d-inline-flex align-items-center gap-3">
                             <span class="sitemap-badge-counter">
-                                <i class="bi bi-check2-circle text-success me-1"></i> <strong id="visiblePageCount">18</strong> Active Pages
+                                <i class="bi bi-check2-circle text-success me-1"></i> <strong id="visiblePageCount">19</strong> Active Pages
                             </span>
                             <a href="sitemap.xml" target="_blank" class="btn-xml-link" title="Open Machine-Readable XML Sitemap">
                                 <i class="bi bi-filetype-xml me-1"></i> XML Sitemap
@@ -328,6 +328,16 @@ ob_start();
                                         <span>Non-invasive platelet-rich plasma (PRP) therapies for early arthritis &amp; tendon healing</span>
                                     </div>
                                     <span class="sitemap-url-pill">/regenerative-medicine</span>
+                                    <i class="bi bi-arrow-right sitemap-arrow"></i>
+                                </a>
+                            </li>
+                            <li class="sitemap-link-item" data-title="orthopedic treatment under ayushman bharat pmjay cashless surgery knee hip fracture">
+                                <a href="orthopedic-treatment-under-ayushman-bharat.php" class="sitemap-link">
+                                    <div class="sitemap-link-main">
+                                        <strong>Orthopedic Treatment Under Ayushman Bharat (PM-JAY)</strong>
+                                        <span>Complete patient guide to 100% cashless knee replacement, hip surgery, and trauma care</span>
+                                    </div>
+                                    <span class="sitemap-url-pill">/orthopedic-treatment-under-ayushman-bharat</span>
                                     <i class="bi bi-arrow-right sitemap-arrow"></i>
                                 </a>
                             </li>

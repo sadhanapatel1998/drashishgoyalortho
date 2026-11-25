@@ -165,6 +165,15 @@ $seoPages = [
         'type' => 'website'
     ],
 
+    // 19. ORTHOPEDIC TREATMENT UNDER AYUSHMAN BHARAT
+    'orthopedic-treatment-under-ayushman-bharat.php' => [
+        'title' => 'Orthopedic Treatment Under Ayushman Bharat PM-JAY | Vadodara',
+        'description' => 'Avail 100% cashless knee replacement, hip replacement, trauma fracture fixation, spine surgery and arthroscopy under Ayushman Bharat (PM-JAY) with Dr. Ashish Kumar Goyal in Vadodara.',
+        'keywords' => 'Orthopedic Treatment Ayushman Bharat, Free Knee Replacement Ayushman Bharat, PM-JAY Orthopedic Surgery Vadodara, Ayushman Card Hospital Vadodara, Dr Ashish Kumar Goyal Ayushman Bharat',
+        'image' => 'assets/images/og-image.jpg',
+        'type' => 'article'
+    ],
+
 ];
 
 ?>
