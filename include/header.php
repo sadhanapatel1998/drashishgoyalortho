@@ -13,17 +13,23 @@
                         JD Nagar, Makarpura, Vadodara, Gujarat – 390013
                     </a>
                 </address>
-                <span class="info-item">
-                    <i class="bi bi-clock-fill" aria-hidden="true"></i>
-                    <time>Mon – Sat: 9:00 AM – 11:30 PM</time>
-                </span>
+                <!--<span class="info-item">-->
+                <!--    <i class="bi bi-clock-fill" aria-hidden="true"></i>-->
+                <!--    <time>Mon – Sat: 9:00 AM – 11:30 PM</time>-->
+                <!--</span>-->
+                     <email class="info-item">
+                    <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+                    <a href="mailto:drgoyal41@gmail.com">
+                        drgoyal41@gmail.com
+                    </a>
+                </email>
             </div>
             <div class="col-8 d-md-none">
-                <a href="tel:+917805965989" class="info-item"><i class="bi bi-telephone-fill" aria-hidden="true"></i>+91
-                    78059 65989</a>
+                <a href="tel:8347378713" class="info-item"><i class="bi bi-telephone-fill" aria-hidden="true"></i>+91
+                    8347378713</a>
             </div>
             <div class="col-4 col-lg-3 text-end">
-                <a href="https://wa.me/917805965989?text=Hello%20Dr.%20Goyal%2C%20I%20would%20like%20to%20book%20an%20appointment."
+                <a href="https://wa.me/918347378713?text=Hello%20Dr.%20Goyal%2C%20I%20would%20like%20to%20book%20an%20appointment."
                     target="_blank" rel="noopener noreferrer" class="book-link"
                     title="Chat on WhatsApp to book an appointment">WhatsApp Now</a>
             </div>
@@ -46,13 +52,13 @@
                 <!-- Header Quick Info Widgets (Left of Book Appointment) -->
                 <div class="header-info-widgets d-none d-lg-flex align-items-center gap-3 gap-xl-4 me-2">
                     <!-- Widget 1: Direct Helpline / OPD Call -->
-                    <a href="tel:+917805965989" class="header-widget" title="Call Dr. Ashish Kumar Goyal">
+                    <a href="tel:8347378713" class="header-widget" title="Call Dr. Ashish Kumar Goyal">
                         <span class="header-widget-icon" aria-hidden="true">
                             <i class="bi bi-telephone-fill"></i>
                         </span>
                         <span class="header-widget-content">
                             <span class="header-widget-label">Helpline / OPD</span>
-                            <span class="header-widget-value">+91 78059 65989</span>
+                            <span class="header-widget-value">+91 8347378713</span>
                         </span>
                     </a>
 

@@ -61,26 +61,30 @@ ob_start();
                         </div>
                         <h3>Phone Helpline</h3>
                         <p>Call our OPD desk directly for appointment scheduling, general inquiries, or emergency fracture guidance.</p>
-                        <a href="tel:+917805965989" class="contact-info-link">
-                            +91 78059 65989 <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                        <a href="tel:8347378713" class="contact-info-link">
+                            +91 8347378713 <i class="bi bi-arrow-right" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- 3. WhatsApp Direct -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="contact-info-card">
-                        <div class="contact-info-icon" aria-hidden="true">
-                            <i class="bi bi-whatsapp"></i>
-                        </div>
-                        <h3>WhatsApp OPD</h3>
-                        <p>Send X-rays, MRI reports, or questions directly to our medical team for preliminary review and instant booking.</p>
-                        <a href="https://wa.me/917805965989?text=Hello%20Dr.%20Ashish%20Kumar%20Goyal%2C%20I%20would%20like%20to%20book%20a%20consultation."
-                            target="_blank" rel="noopener noreferrer" class="contact-info-link">
-                            Chat on WhatsApp <i class="bi bi-arrow-right" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
+                <!-- 3. Email Us -->
+                
+<div class="col-lg-3 col-md-6">
+    <div class="contact-info-card">
+        <div class="contact-info-icon" aria-hidden="true">
+            <i class="bi bi-envelope-fill"></i>
+        </div>
+
+        <h3>Email Us</h3>
+
+        <p>Send your X-rays, MRI reports, medical queries, or appointment requests directly to our medical team via email.</p>
+
+        <a href="mailto:drgoyal41@gmail.com" class="contact-info-link">
+            drgoyal41@gmail.com <i class="bi bi-arrow-right" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
 
                 <!-- 4. Consulting Timings -->
                 <div class="col-lg-3 col-md-6">
@@ -242,11 +246,11 @@ ob_start();
                             <div class="mt-3 pt-3 border-top border-secondary d-flex align-items-center justify-content-between">
                                 <div>
                                     <small class="text-white-50 d-block">Helpline Number:</small>
-                                    <a href="tel:+917805965989" class="text-white fw-bold text-decoration-none">
-                                        <i class="bi bi-telephone-fill text-warning me-1"></i> +91 78059 65989
+                                    <a href="tel:8347378713" class="text-white fw-bold text-decoration-none">
+                                        <i class="bi bi-telephone-fill text-warning me-1"></i> +91 8347378713
                                     </a>
                                 </div>
-                                <a href="https://wa.me/917805965989" target="_blank" rel="noopener noreferrer"
+                                <a href="https://wa.me/918347378713" target="_blank" rel="noopener noreferrer"
                                     class="btn btn-sm btn-outline-light rounded-pill px-3">
                                     <i class="bi bi-whatsapp text-success me-1"></i> WhatsApp
                                 </a>
@@ -287,7 +291,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (time) text += `*Preferred Time:* ${encodeURIComponent(time)}%0A`;
         if (message) text += `*Message:* ${encodeURIComponent(message)}%0A`;
 
-        const waUrl = `https://wa.me/917805965989?text=${text}`;
+        const waUrl = `https://wa.me/918347378713?text=${text}`;
         window.open(waUrl, '_blank');
     });
 });

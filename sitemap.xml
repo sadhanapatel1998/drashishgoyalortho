@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <!-- 1. Homepage -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.00</priority>
+    </url>
+
+    <!-- 2. About Doctor -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/about</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- 3. Specialities Overview -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/specialities</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- 4. Treatments & Services Overview -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/treatments-services</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- 5. Robotic Joint Replacement -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/robotic-joint-replacement</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- 6. Total Knee & Hip Replacement -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/total-knee-hip-replacement</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- 7. Revision & DAA Hip Replacement -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/revision-daa-hip-replacement</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- 8. Joint Replacement Surgery -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/joint-replacement-surgery</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- 9. Arthroscopy & Sports Injuries -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/arthroscopy-sports-injuries</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- 10. Complex Trauma & Revision Surgeries -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/complex-trauma-revision-surgeries</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- 11. Complex Trauma & Fracture Treatment -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/complex-trauma-revision</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+
+    <!-- 12. Foot & Ankle Surgeries -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/foot-ankle-surgeries</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+
+    <!-- 13. Orthopaedic Oncology -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/orthopaedic-oncology</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+
+    <!-- 14. Regenerative Medicine & PRP -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/regenerative-medicine</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.85</priority>
+    </url>
+
+    <!-- 15. Research & Publications -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/research-publications</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- 16. Health Blogs -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/blogs</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- 17. Contact & Clinic Consultation -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/contact</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.90</priority>
+    </url>
+
+    <!-- 18. HTML Sitemap -->
+    <url>
+        <loc>https://www.drashishgoyalortho.com/sitemap</loc>
+        <lastmod>2026-11-16</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.50</priority>
+    </url>
+
+</urlset>

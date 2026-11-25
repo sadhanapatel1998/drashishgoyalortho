@@ -13,8 +13,9 @@ $seo = $seoPages[$currentPage] ?? [
     'type' => 'website'
 ];
 
+$cleanSlug = preg_replace('/\.php$/', '', $currentPage);
 $canonicalUrl = $baseUrl . (
-    $currentPage === 'index.php' ? '/' : '/' . $currentPage
+    $currentPage === 'index.php' ? '/' : '/' . $cleanSlug
 );
 
 $ogImage = $baseUrl . '/' . ltrim($seo['image'], '/');

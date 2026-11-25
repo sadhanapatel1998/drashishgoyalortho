@@ -452,7 +452,7 @@ include 'include/data.php';
                         <a href="contact.php" class="btn btn-cta d-inline-flex align-items-center gap-2">
                             <i class="bi bi-calendar2-check" aria-hidden="true"></i> Book Consultation
                         </a>
-                        <a href="https://wa.me/917805965989?text=Hello%20Dr.%20Ashish%20Kumar%20Goyal%2C%20I%20would%20like%20to%20consult%20regarding%20an%20Orthopaedic%20Second%20Opinion." 
+                        <a href="https://wa.me/918347378713?text=Hello%20Dr.%20Ashish%20Kumar%20Goyal%2C%20I%20would%20like%20to%20consult%20regarding%20an%20Orthopaedic%20Second%20Opinion." 
                            target="_blank" rel="noopener noreferrer" 
                            class="btn btn-outline-light d-inline-flex align-items-center gap-2"
                            style="border-radius: 50px; padding: 12px 26px; font-weight: 600;">

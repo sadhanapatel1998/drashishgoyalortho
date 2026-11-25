@@ -40,7 +40,7 @@
                             Experience</span>
                     </div>
                     <div class="footer-social" aria-label="Social media links">
-                        <a href="https://wa.me/917805965989" target="_blank" rel="noopener noreferrer"
+                        <a href="https://wa.me/918347378713" target="_blank" rel="noopener noreferrer"
                             class="footer-social-link" title="WhatsApp" aria-label="WhatsApp"><i
                                 class="bi bi-whatsapp"></i></a>
                         <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer"
@@ -49,12 +49,12 @@
                         <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer"
                             class="footer-social-link" title="Instagram" aria-label="Instagram"><i
                                 class="bi bi-instagram"></i></a>
-                        <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer"
-                            class="footer-social-link" title="YouTube" aria-label="YouTube"><i
-                                class="bi bi-youtube"></i></a>
-                        <a href="javascript:void(0)" target="_blank" rel="noopener noreferrer"
-                            class="footer-social-link" title="LinkedIn" aria-label="LinkedIn"><i
-                                class="bi bi-linkedin"></i></a>
+                        <!--<a href="javascript:void(0)" target="_blank" rel="noopener noreferrer"-->
+                        <!--    class="footer-social-link" title="YouTube" aria-label="YouTube"><i-->
+                        <!--        class="bi bi-youtube"></i></a>-->
+                        <!--<a href="javascript:void(0)" target="_blank" rel="noopener noreferrer"-->
+                        <!--    class="footer-social-link" title="LinkedIn" aria-label="LinkedIn"><i-->
+                        <!--        class="bi bi-linkedin"></i></a>-->
                     </div>
                 </div>
             </div>
@@ -71,6 +71,7 @@
                                 Publications</a></li>
                         <li><a href="blogs.php"><i class="bi bi-chevron-right"></i> Health Blogs</a></li>
                         <li><a href="contact.php"><i class="bi bi-chevron-right"></i> Contact Us</a></li>
+                        <!-- <li><a href="sitemap.php"><i class="bi bi-chevron-right"></i> Sitemap</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -129,18 +130,25 @@
                         <li>
                             <i class="bi bi-telephone-fill" aria-hidden="true"></i>
                             <div>
-                                <a href="tel:+917805965989">+91 78059 65989</a>
+                                <a href="tel:8347378713">+91 8347378713</a>
                                 <small class="d-block text-white-50">Appointment &amp; Emergency Line</small>
                             </div>
                         </li>
                         <li>
-                            <i class="bi bi-clock-fill" aria-hidden="true"></i>
+                            <i class="bi bi-envelope-fill" aria-hidden="true"></i>
                             <div>
-                                <strong class="text-white d-block">Mon – Sat:</strong>
-                                <span>9:00 AM – 11:30 PM</span>
-                                <small class="d-block text-warning mt-1">Sunday: By Emergency Appointment</small>
+                                <a href="mailto:drgoyal41@gmail.com">drgoyal41@gmail.com</a>
+                                <small class="d-block text-white-50">E-Mail Us</small>
                             </div>
                         </li>
+                        <!--<li>-->
+                        <!--    <i class="bi bi-clock-fill" aria-hidden="true"></i>-->
+                        <!--    <div>-->
+                        <!--        <strong class="text-white d-block">Mon – Sat:</strong>-->
+                        <!--        <span>9:00 AM – 11:30 PM</span>-->
+                        <!--        <small class="d-block text-warning mt-1">Sunday: By Emergency Appointment</small>-->
+                        <!--    </div>-->
+                        <!--</li>-->
                     </ul>
                 </div>
             </div>
@@ -160,10 +168,10 @@
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <div class="d-inline-flex gap-3">
-                        <!-- <a href="#about">Privacy Policy</a>
+                        <a href="sitemap.php">Sitemap</a>
                         <span>•</span>
-                        <a href="#services">Terms of Service</a>
-                        <span>•</span> -->
+                        <a href="sitemap.xml" target="_blank">XML Sitemap</a>
+                        <span>•</span>
                         <a href="https://maps.google.com/?q=Ganesh+Plaza+JD+Nagar+Makarpura+Vadodara" target="_blank"
                             rel="noopener noreferrer">Google Maps</a>
                     </div>

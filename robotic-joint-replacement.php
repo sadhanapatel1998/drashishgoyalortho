@@ -67,9 +67,9 @@ ob_start();
                             <a href="contact.php" class="btn btn-cta d-inline-flex align-items-center gap-2">
                                 <i class="bi bi-calendar2-check" aria-hidden="true"></i> Book Specialist Consultation
                             </a>
-                            <a href="tel:+917805965989" class="btn btn-outline-dark d-inline-flex align-items-center gap-2"
+                            <a href="tel:8347378713" class="btn btn-outline-dark d-inline-flex align-items-center gap-2"
                                 style="border-radius: 50px; padding: 12px 24px; font-weight: 600;">
-                                <i class="bi bi-telephone-fill text-warning" aria-hidden="true"></i> +91 78059 65989
+                                <i class="bi bi-telephone-fill text-warning" aria-hidden="true"></i> +91 8347378713
                             </a>
                         </div>
                     </div>
@@ -303,7 +303,7 @@ ob_start();
                     <a href="contact.php" class="btn btn-cta d-inline-flex align-items-center gap-2">
                         <i class="bi bi-calendar2-check" aria-hidden="true"></i> Book Appointment
                     </a>
-                    <a href="tel:+917805965989" class="btn btn-outline-light d-inline-flex align-items-center gap-2"
+                    <a href="tel:8347378713" class="btn btn-outline-light d-inline-flex align-items-center gap-2"
                         style="border-radius: 50px; padding: 12px 24px; font-weight: 600;">
                         <i class="bi bi-telephone-fill text-warning" aria-hidden="true"></i> Call Helpline
                     </a>

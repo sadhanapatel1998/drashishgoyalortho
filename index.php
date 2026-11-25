@@ -26,7 +26,6 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
             </div>
 
             <div class="carousel-inner">
-
                 <!-- Slide 1: AI & Robotic Knee Joint Replacement -->
                 <div class="carousel-item active">
                     <div class="hero-slide slide-1">
@@ -37,7 +36,7 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                                         <div class="hero-eyebrow-tag">
                                             <span class="eyebrow-bar" aria-hidden="true"></span>
                                             <span>ORTHOPAEDIC | JOINT | SPORTS INJURY</span>
-                                            <span class="eyebrow-bar" aria-hidden="true"></span>
+                                            <span class="eyebrow-bar" aria-hidden="true"></span>     
                                         </div>
                                         <!-- Only ONE H1 per page -->
                                         <h1 class="hero-title">Move Better. <span>Live Pain-Free.</span></h1>
@@ -66,7 +65,7 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                                                 <span>Book Appointment</span>
                                                 <i class="bi bi-arrow-right" aria-hidden="true"></i>
                                             </a>
-                                            <a href="https://wa.me/919429197711?text=Hello%20Dr.%20Ashish%20Kumar%20Goyal%2C%20I%20would%20like%20to%20consult%20regarding%20Robotic%20Knee%20Replacement."
+                                            <a href="https://wa.me/918347378713?text=Hello%20Dr.%20Ashish%20Kumar%20Goyal%2C%20I%20would%20like%20to%20consult%20regarding%20Robotic%20Knee%20Replacement."
                                                 target="_blank" rel="noopener noreferrer" class="hero-btn-secondary"
                                                 aria-label="Chat on WhatsApp with Dr. Ashish Kumar Goyal">
                                                 <i class="bi bi-whatsapp" aria-hidden="true"></i>
@@ -226,7 +225,7 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                                                 <span>Book Consultation</span>
                                                 <i class="bi bi-arrow-right" aria-hidden="true"></i>
                                             </a>
-                                            <a href="https://wa.me/919429197711?text=Hello%20Dr.%20Ashish%20Kumar%20Goyal%2C%20I%20would%20like%20to%20consult%20regarding%20Knee%20Care%20and%20Treatment."
+                                            <a href="https://wa.me/918347378713?text=Hello%20Dr.%20Ashish%20Kumar%20Goyal%2C%20I%20would%20like%20to%20consult%20regarding%20Knee%20Care%20and%20Treatment."
                                                 target="_blank" rel="noopener noreferrer" class="hero-btn-secondary"
                                                 aria-label="Chat on WhatsApp with Dr. Ashish Kumar Goyal">
                                                 <i class="bi bi-whatsapp" aria-hidden="true"></i>
@@ -903,9 +902,9 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
 
                             </div>
 
-                            <a href="tel:+917805965989" class="appointment-call">
+                            <a href="tel:8347378713" class="appointment-call">
                                 <i class="bi bi-telephone-fill" aria-hidden="true"></i>
-                                +91 78059 65989
+                                +91 8347378713
                             </a>
 
                         </div>
@@ -1174,14 +1173,14 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
                         <h3>Have Another Question?</h3>
                         <p>Our orthopaedic medical team is here to help you understand your symptoms, evaluate MRI/X-ray
                             reports, and guide you towards the right care.</p>
-                        <a href="https://wa.me/917805965989?text=Hello%20Dr.%20Goyal%2C%20I%20have%20a%20question%20regarding%20my%20orthopedic%20condition."
+                        <a href="https://wa.me/918347378713?text=Hello%20Dr.%20Goyal%2C%20I%20have%20a%20question%20regarding%20my%20orthopedic%20condition."
                             target="_blank" rel="noopener noreferrer" class="faq-sidebar-btn">
                             <i class="bi bi-whatsapp" aria-hidden="true"></i> Ask on WhatsApp
                         </a>
                         <div class="mt-4 pt-3 border-top border-secondary">
                             <small class="text-white-50 d-block mb-1">Direct Consultation Line:</small>
-                            <a href="tel:+917805965989" class="text-white fw-bold text-decoration-none">
-                                <i class="bi bi-telephone-fill text-warning me-1"></i> +91 78059 65989
+                            <a href="tel:8347378713" class="text-white fw-bold text-decoration-none">
+                                <i class="bi bi-telephone-fill text-warning me-1"></i> +91 8347378713
                             </a>
                         </div>
                     </div>

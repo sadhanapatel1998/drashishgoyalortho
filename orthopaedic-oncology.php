@@ -466,7 +466,7 @@ ob_start();
                             <a href="contact.php" class="btn btn-cta d-inline-flex align-items-center gap-2">
                                 <i class="bi bi-calendar2-check" aria-hidden="true"></i> Book Consultation
                             </a>
-                            <a href="tel:+917805965989" class="btn btn-outline-dark d-inline-flex align-items-center gap-2"
+                            <a href="tel:8347378713" class="btn btn-outline-dark d-inline-flex align-items-center gap-2"
                                 style="border-radius: 50px; padding: 10px 22px; font-weight: 600;">
                                 <i class="bi bi-telephone-fill text-warning" aria-hidden="true"></i> Call Now
                             </a>
@@ -541,7 +541,7 @@ ob_start();
                                 </div>
                                 <div class="sidebar-contact-text">
                                     <small>Helpline / OPD Call</small>
-                                    <a href="tel:+917805965989">+91 78059 65989</a>
+                                    <a href="tel:8347378713">+91 8347378713</a>
                                 </div>
                             </div>
 

@@ -156,6 +156,15 @@ $seoPages = [
         'type' => 'website'
     ],
 
+    // 18. SITEMAP
+    'sitemap.php' => [
+        'title' => 'Website Sitemap | Dr. Ashish Kumar Goyal Orthopaedic Clinic',
+        'description' => 'Browse the complete directory of Dr. Ashish Kumar Goyal\'s orthopaedic website to explore surgical treatments, specialities, patient guides, and research publications.',
+        'keywords' => 'Dr Ashish Kumar Goyal Sitemap, Orthopedic Clinic Sitemap, Site Directory Vadodara',
+        'image' => 'assets/images/og-image.jpg',
+        'type' => 'website'
+    ],
+
 ];
 
 ?>
