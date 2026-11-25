@@ -509,6 +509,92 @@ if (!file_exists($kneeAssetDst) && file_exists($kneeAssetSrc)) {
         </div>
     </section>
 
+    <!-- ================= AYUSHMAN BHARAT SCHEME STRIP ================= -->
+    <section class="ayushman-home-section" aria-label="Ayushman Bharat Orthopedic Treatment">
+        <div class="container">
+            <div class="ayushman-home-card">
+                <div class="row align-items-center g-4 g-lg-5">
+
+                    <!-- Left: Graphic Card Image Showcase -->
+                    <div class="col-lg-5">
+                        <a href="orthopedic-treatment-under-ayushman-bharat.php" class="ayushman-home-img-wrap"
+                            title="View Ayushman Bharat Orthopedic Treatments &amp; Surgeries">
+                            <img src="assets/images/ayushman-card-img.jpg"
+                                alt="Orthopedic Care under Ayushman Card Scheme (PM-JAY)" class="img-fluid"
+                                width="600" height="360" loading="lazy" decoding="async">
+                            <div class="ayushman-img-overlay-badge">
+                                <i class="bi bi-shield-fill-check" aria-hidden="true"></i>
+                                <span>100% Cashless • PM-JAY</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Right: Scheme Details & Actions -->
+                    <div class="col-lg-7">
+                        <div class="ayushman-home-content">
+                            <span class="ayushman-home-tag">
+                                <i class="bi bi-shield-check" aria-hidden="true"></i> GOVT. OF INDIA HEALTH SCHEME (PM-JAY)
+                            </span>
+                            <h2 class="ayushman-home-title">
+                                Cashless Orthopedic Surgeries Under <span>Ayushman Bharat</span>
+                            </h2>
+                            <p class="ayushman-home-text">
+                                Eligible Ayushman Card (PM-JAY) beneficiaries can receive up to <strong>₹5,00,000</strong> annual cashless coverage for advanced knee replacement, hip replacement, trauma fracture fixation, spine surgeries, and arthroscopy with <strong>Dr. Ashish Kumar Goyal</strong> at empaneled hospitals.
+                            </p>
+
+                            <!-- <div class="ayushman-home-grid">
+                                <div class="ayushman-grid-item">
+                                    <div class="ayushman-grid-icon"><i class="bi bi-cash-stack" aria-hidden="true"></i></div>
+                                    <div>
+                                        <strong>100% Cashless</strong>
+                                        <span>Zero Out-of-Pocket</span>
+                                    </div>
+                                </div>
+                                <div class="ayushman-grid-item">
+                                    <div class="ayushman-grid-icon"><i class="bi bi-hospital" aria-hidden="true"></i></div>
+                                    <div>
+                                        <strong>₹5 Lakh Coverage</strong>
+                                        <span>Per Family / Year</span>
+                                    </div>
+                                </div>
+                                <div class="ayushman-grid-item">
+                                    <div class="ayushman-grid-icon"><i class="bi bi-heart-pulse" aria-hidden="true"></i></div>
+                                    <div>
+                                        <strong>Pre-Existing Covered</strong>
+                                        <span>Day 1 Inclusions</span>
+                                    </div>
+                                </div>
+                                <div class="ayushman-grid-item">
+                                    <div class="ayushman-grid-icon"><i class="bi bi-capsule" aria-hidden="true"></i></div>
+                                    <div>
+                                        <strong>Implants &amp; Meds</strong>
+                                        <span>OT &amp; Stay Included</span>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <div class="ayushman-home-actions">
+                                <a href="orthopedic-treatment-under-ayushman-bharat.php" class="ayushman-home-btn"
+                                    title="Explore Orthopedic Treatments Under Ayushman Bharat">
+                                    <span>Check Eligibility &amp; Packages</span>
+                                    <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                                </a>
+                                <a href="https://wa.me/918347378713?text=Hello%20Dr.%20Goyal%2C%20I%20have%20an%20inquiry%20regarding%20Orthopedic%20Treatment%20under%20Ayushman%20Bharat."
+                                    target="_blank" rel="noopener noreferrer" class="ayushman-home-btn-outline"
+                                    aria-label="Chat on WhatsApp about Ayushman Bharat">
+                                    <i class="bi bi-whatsapp text-success" aria-hidden="true"></i>
+                                    <span>WhatsApp Helpdesk</span>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ================= WHY CHOOSE US SECTION ================= -->
     <section class="whychoose-section" id="why-choose-us" aria-labelledby="whyChooseHeading">
         <div class="container">
